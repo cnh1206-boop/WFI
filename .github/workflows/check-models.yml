@@ -1,0 +1,41 @@
+
+name: Check Gemini Models
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check-models:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check available Gemini models
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python - <<'PY'
+          import os
+          import json
+          import urllib.request
+
+          api_key = os.environ.get("GEMINI_API_KEY")
+          if not api_key:
+              raise SystemExit("GEMINI_API_KEY is missing")
+
+          url = "https://generativelanguage.googleapis.com/v1beta/models"
+
+          request = urllib.request.Request(
+              url,
+              headers={"x-goog-api-key": api_key}
+          )
+
+          with urllib.request.urlopen(request, timeout=30) as response:
+              data = json.load(response)
+
+          print("=== Available Gemini Models ===")
+
+          for model in data.get("models", []):
+              methods = model.get("supportedGenerationMethods", [])
+              if "generateContent" in methods:
+                  print(model["name"])
+          PY
