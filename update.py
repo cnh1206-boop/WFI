@@ -1,89 +1,216 @@
 from datetime import datetime, timedelta, timezone
+from html import unescape
+from urllib.parse import urlencode
+from urllib.request import Request, urlopen
 import json
 import os
-import traceback
-from google import genai
+import re
+import time
+import xml.etree.ElementTree as ET
+import zipfile
+from io import BytesIO
 
-client = genai.Client()
+import yfinance as yf
+
+KST = timezone(timedelta(hours=9))
+with open("holdings.json", encoding="utf-8") as holdings_file:
+    HOLDINGS = json.load(holdings_file)["holdings"]
+MARKETS = [
+    {"name": "S&P 500", "symbol": "^GSPC", "region": "미국"},
+    {"name": "NASDAQ 종합", "symbol": "^IXIC", "region": "미국"},
+    {"name": "다우존스", "symbol": "^DJI", "region": "미국"},
+    {"name": "코스피", "symbol": "^KS11", "region": "한국"},
+    {"name": "코스닥", "symbol": "^KQ11", "region": "한국"},
+    {"name": "니케이 225", "symbol": "^N225", "region": "일본"},
+    {"name": "항셍", "symbol": "^HSI", "region": "홍콩"},
+    {"name": "유로스톡스 50", "symbol": "^STOXX50E", "region": "유럽"},
+]
+DART_ETF_CODES = {"453850", "364980", "0131V0", "493810", "0177N0"}
 
 
-def get_kst_now_str():
-  kst = timezone(timedelta(hours=9))
-  return datetime.now(kst).strftime("%Y-%m-%d %H:%M KST")
+def now_kst():
+    return datetime.now(KST)
+
+
+def fetch_json(url, params=None):
+    if params:
+        url = url + "?" + urlencode(params)
+    request = Request(url, headers={"User-Agent": "WFI-Portfolio-Briefing/1.0"})
+    with urlopen(request, timeout=30) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
+def fetch_quote(item):
+    try:
+        history = yf.Ticker(item["symbol"]).history(period="5d", interval="1d", auto_adjust=False)
+        closes = history["Close"].dropna()
+        if closes.empty:
+            raise ValueError("시세 데이터 없음")
+        price = float(closes.iloc[-1])
+        previous = float(closes.iloc[-2]) if len(closes) > 1 else price
+        return {
+            **item,
+            "price": round(price, 4),
+            "change": round(price - previous, 4),
+            "change_percent": round((price - previous) / previous * 100, 4) if previous else 0,
+            "currency": "USD" if item["market"] == "US" else "POINTS" if item["market"] == "INDEX" else "KRW",
+            "as_of": str(closes.index[-1].date()),
+            "error": None,
+        }
+    except Exception as exc:
+        print(f'시세 조회 실패: {item["name"]} ({item["symbol"]}): {exc}')
+        return {
+            **item, "price": None, "change": None, "change_percent": None,
+            "currency": "USD" if item["market"] == "US" else "POINTS" if item["market"] == "INDEX" else "KRW",
+            "as_of": None, "error": str(exc),
+        }
+
+
+def fetch_market_indices():
+    return [fetch_quote({**item, "ticker": item["symbol"], "market": "INDEX"}) for item in MARKETS]
+
+
+def clean_html(value):
+    value = re.sub(r"<[^>]+>", " ", value or "")
+    return " ".join(unescape(value).split())
+
+
+def fetch_rss(query, limit=5):
+    url = "https://news.google.com/rss/search?" + urlencode(
+        {"q": query, "hl": "ko", "gl": "KR", "ceid": "KR:ko"}
+    )
+    try:
+        request = Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; WFI-Briefing/1.0)"})
+        with urlopen(request, timeout=30) as response:
+            root = ET.fromstring(response.read())
+        entries = []
+        for item in root.findall("./channel/item")[:limit]:
+            title = clean_html(item.findtext("title", ""))
+            link = item.findtext("link", "").strip()
+            source_node = item.find("source")
+            source = clean_html(source_node.text if source_node is not None else "Google 뉴스")
+            description = clean_html(item.findtext("description", ""))
+            published = item.findtext("pubDate", "")
+            if title and link:
+                entries.append({"title": title, "source_url": link, "source": source,
+                                "description": description, "published_at": published})
+        return entries
+    except Exception as exc:
+        print(f"뉴스 RSS 조회 실패 ({query}): {exc}")
+        return []
 
 
 def fetch_news():
-  prompt = """전 세계 2차전지, 반도체, 거시경제, 환율·원자재 산업의 최신 핵심 뉴스 6건과, 전 세계 주요 경제 유튜버(All-In Podcast, Patrick Boyle, Joseph Carlson, Tom Nash 등) 및 월가 주요 인사(제이미 다이먼, 레이 달리오, 스탠리 드러켄밀러, 캐시 우드, 연준 인사 등)의 최신 발언·시장 전망 3건을 합쳐 총 9건을 선정해서 한국어로 브리핑해줘.
+    searches = [
+        ("global stock market today S&P 500 Nasdaq", "세계증시·경제", "글로벌", []),
+        ("global markets interest rates currency economy", "세계증시·경제", "글로벌", []),
+        ("POSCO Holdings OR POSCO홀딩스 stock news", "보유종목 뉴스", "한국", ["005490"]),
+        ("SK hynix OR SK하이닉스 stock news", "보유종목 뉴스", "한국", ["000660"]),
+        ("IonQ stock news", "보유종목 뉴스", "미국", ["IONQ"]),
+        ("TIGER 2차전지TOP10 OR lithium battery Korea ETF", "보유종목 뉴스", "한국", ["364980"]),
+        ("명신산업 OR 선바이오 OR 두산퓨얼셀 news", "보유종목 뉴스", "한국", ["009900", "067370", "336260"]),
+        ("미국 우주항공 ETF AI 빅테크 covered call 한국", "보유종목 뉴스", "글로벌", ["0131V0", "493810"]),
+    ]
+    articles, seen = [], set()
+    for query, category, region, related in searches:
+        for entry in fetch_rss(query, limit=4):
+            if entry["source_url"] in seen:
+                continue
+            seen.add(entry["source_url"])
+            articles.append({
+                "id": len(articles) + 1,
+                "title": entry["title"],
+                "category": category,
+                "keyword": "보유종목" if related else "세계시장",
+                "region": region,
+                "media": entry["source"],
+                "date": entry["published_at"] or now_kst().strftime("%Y-%m-%d"),
+                "summary1": entry["title"],
+                "summary2": entry["description"] or "기사 원문을 열어 세부 내용을 확인하세요.",
+                "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+                "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+                "source_url": entry["source_url"],
+                "related_tickers": related,
+                "scraped": False,
+            })
+    return articles[:30]
 
-반드시 아래 JSON 배열 형식으로만 응답해줘. 마크다운 백틱(```json)이나 다른 설명 텍스트는 절대 포함하지 마.
 
-[
-  {
-    "id": 1,
-    "title": "핵심 뉴스 제목 (월가·유튜버 발언의 경우 '[인물/채널명] 핵심 발언 요지' 형태로 작성)",
-    "category": "반드시 다음 5개 중 하나만 정확히 입력: 2차전지·소재, 반도체·AI, 세계증시·경제, 환율·금리·원자재, 월가·유튜버 인사이트",
-    "keyword": "반드시 다음 4개 중 가장 관련 깊은 것 하나만 정확히 입력: 미국FOMC, 리튬반등, HBM4, 유럽CBAM",
-    "region": "미국, 유럽, 아시아, 글로벌 중 택1",
-    "media": "일반 뉴스는 Bloomberg, Reuters, WSJ, FT, CNBC 중 택1 / 발언 요약은 YouTube, Wall Street, Podcast 중 택1",
-    "date": "오늘",
-    "summary1": "첫 번째 핵심 요약 문장 (발언 배경 및 핵심 주장)",
-    "summary2": "두 번째 핵심 요약 문장 (구체적 근거 수치 또는 언급된 섹터·종목)",
-    "summary3": "세 번째 핵심 요약 문장 (향후 전망 및 리스크 요인)",
-    "insight": "이 뉴스 또는 발언이 개인 투자자 포트폴리오(반도체·배터리·지수)에 주는 핵심 시사점 1~2문장",
-    "scraped": false
-  }
-]"""
+def fetch_dart_disclosures():
+    api_key = os.getenv("OPEN_DART_API_KEY")
+    if not api_key:
+        print("OPEN_DART_API_KEY 미설정: 공시 수집을 건너뜁니다.")
+        return []
+    try:
+        corp_url = "https://opendart.fss.or.kr/api/corpCode.xml?" + urlencode({"crtfc_key": api_key})
+        request = Request(corp_url, headers={"User-Agent": "WFI-Portfolio-Briefing/1.0"})
+        with urlopen(request, timeout=40) as response:
+            archive = zipfile.ZipFile(BytesIO(response.read()))
+        xml_name = next(name for name in archive.namelist() if name.endswith(".xml"))
+        root = ET.fromstring(archive.read(xml_name))
+        code_map = {}
+        for node in root.findall("list"):
+            stock_code = (node.findtext("stock_code") or "").strip()
+            corp_code = (node.findtext("corp_code") or "").strip()
+            if stock_code and corp_code:
+                code_map[stock_code] = corp_code
+    except Exception as exc:
+        print(f"DART 기업코드 목록 조회 실패: {exc}")
+        return []
 
-  try:
-    print("Gemini API 호출 시작...")
-    response = client.models.generate_content(
-        model="gemini-3.5-flash",
-        contents=prompt,
-    )
-    print("Gemini API 호출 완료!")
-
-    text = response.text.strip()
-    if text.startswith("```json"):
-      text = text[7:]
-    if text.startswith("```"):
-      text = text[3:]
-    if text.endswith("```"):
-      text = text[:-3]
-    text = text.strip()
-
-    articles = json.loads(text)
-
-    for idx, item in enumerate(articles, start=1):
-      item["id"] = idx
-      item["scraped"] = False
-      item.setdefault("category", "세계증시·경제")
-      item.setdefault("keyword", "미국FOMC")
-      item.setdefault("region", "글로벌")
-      item.setdefault("media", "Bloomberg")
-      item.setdefault("date", "오늘")
-      item.setdefault("summary1", "세부 내용 요약")
-      item.setdefault("summary2", "시장 동향 모니터링 필요")
-      item.setdefault("summary3", "관련 밸류체인 영향 주시")
-      item.setdefault("insight", "거시경제 및 산업 수급 변화에 유의해야 합니다.")
-
-    return articles
-  except Exception as e:
-    print("API 호출 중 상세 오류 발생:")
-    traceback.print_exc()
-    return []
+    start_date = (now_kst() - timedelta(days=14)).strftime("%Y%m%d")
+    end_date = now_kst().strftime("%Y%m%d")
+    disclosures = []
+    for holding in HOLDINGS:
+        if holding["market"] != "KR" or holding["ticker"] in DART_ETF_CODES:
+            continue
+        corp_code = code_map.get(holding["ticker"])
+        if not corp_code:
+            continue
+        try:
+            result = fetch_json("https://opendart.fss.or.kr/api/list.json", {
+                "crtfc_key": api_key, "corp_code": corp_code,
+                "bgn_de": start_date, "end_de": end_date,
+                "page_count": 100, "sort": "date", "sort_mth": "desc",
+            })
+            if result.get("status") not in ("000", "013"):
+                print(f'DART 응답: {holding["name"]}: {result.get("message")}')
+                continue
+            for row in result.get("list", []):
+                receipt_no = row.get("rcept_no", "")
+                disclosures.append({
+                    "company": holding["name"], "ticker": holding["ticker"],
+                    "title": row.get("report_nm", ""), "date": row.get("rcept_dt", ""),
+                    "source_url": f"https://dart.fss.or.kr/dsaf001/main.do?rcpNo={receipt_no}",
+                    "receipt_no": receipt_no,
+                })
+            time.sleep(0.15)
+        except Exception as exc:
+            print(f'DART 공시 조회 실패: {holding["name"]}: {exc}')
+    disclosures.sort(key=lambda item: item["date"], reverse=True)
+    return disclosures[:50]
 
 
 def main():
-  print("뉴스 업데이트 스크립트 실행 중...")
-  news_list = fetch_news()
-
-  data = {"updated_at": get_kst_now_str(), "articles": news_list}
-
-  with open("news.json", "w", encoding="utf-8") as f:
-    json.dump(data, f, ensure_ascii=False, indent=4)
-
-  print("news.json 파일 저장 완료!")
+    updated_at = now_kst().strftime("%Y-%m-%d %H:%M KST")
+    portfolio = {
+        "updated_at": updated_at,
+        "indices": fetch_market_indices(),
+        "holdings": [fetch_quote(holding) for holding in HOLDINGS],
+    }
+    news = {"updated_at": updated_at, "articles": fetch_news()}
+    dart_key_configured = bool(os.getenv("OPEN_DART_API_KEY"))
+    disclosures = {
+        "updated_at": updated_at,
+        "configured": dart_key_configured,
+        "items": fetch_dart_disclosures(),
+    }
+    for filename, data in (("portfolio.json", portfolio), ("news.json", news),
+                           ("disclosures.json", disclosures)):
+        with open(filename, "w", encoding="utf-8") as file:
+            json.dump(data, file, ensure_ascii=False, indent=2)
+        print(f"{filename} 저장 완료")
 
 
 if __name__ == "__main__":
-  main()
+    main()

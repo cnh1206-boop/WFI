@@ -71,6 +71,7 @@
                     <button onclick="filterCategory('2차전지·소재')" class="category-btn whitespace-nowrap px-4 py-1.5 rounded-full text-sm font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition">2차전지·소재</button>
                     <button onclick="filterCategory('반도체·AI')" class="category-btn whitespace-nowrap px-4 py-1.5 rounded-full text-sm font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition">반도체·AI</button>
                     <button onclick="filterCategory('세계증시·경제')" class="category-btn whitespace-nowrap px-4 py-1.5 rounded-full text-sm font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition">세계증시·경제</button>
+                    <button onclick="filterCategory('보유종목 뉴스')" class="category-btn whitespace-nowrap px-4 py-1.5 rounded-full text-sm font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition">보유종목 뉴스</button>
                     <button onclick="filterCategory('환율·금리·원자재')" class="category-btn whitespace-nowrap px-4 py-1.5 rounded-full text-sm font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition">환율·금리·원자재</button>
                     <button onclick="filterCategory('월가·유튜버 인사이트')" class="category-btn whitespace-nowrap px-4 py-1.5 rounded-full text-sm font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition">월가·유튜버 인사이트</button>
                     <button onclick="filterCategory('스크랩북')" class="category-btn whitespace-nowrap px-4 py-1.5 rounded-full text-sm font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition">스크랩북</button>
@@ -83,19 +84,34 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center space-x-2 overflow-x-auto no-scrollbar">
                 <span class="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider shrink-0 mr-1"><i class="fa-solid fa-fire text-brand-plum mr-1"></i> Global Keywords:</span>
                 <button onclick="filterKeyword('전체')" class="keyword-chip shrink-0 text-xs px-3 py-1 rounded-md bg-brand-blue text-white font-medium transition">#전체보기</button>
-                <button onclick="filterKeyword('미국FOMC')" class="keyword-chip shrink-0 text-xs px-3 py-1 rounded-md bg-white dark:bg-slate-700 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600 hover:border-brand-blue transition">#미국FOMC</button>
-                <button onclick="filterKeyword('리튬반등')" class="keyword-chip shrink-0 text-xs px-3 py-1 rounded-md bg-white dark:bg-slate-700 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600 hover:border-brand-blue transition">#배터리·리튬</button>
-                <button onclick="filterKeyword('HBM4')" class="keyword-chip shrink-0 text-xs px-3 py-1 rounded-md bg-white dark:bg-slate-700 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600 hover:border-brand-blue transition">#반도체·HBM</button>
-                <button onclick="filterKeyword('유럽CBAM')" class="keyword-chip shrink-0 text-xs px-3 py-1 rounded-md bg-white dark:bg-slate-700 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600 hover:border-brand-blue transition">#금리·환율·원자재</button>
+                <button onclick="filterKeyword('보유종목')" class="keyword-chip shrink-0 text-xs px-3 py-1 rounded-md bg-white dark:bg-slate-700 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600 hover:border-brand-blue transition">#보유종목뉴스</button>
+                <button onclick="filterKeyword('세계시장')" class="keyword-chip shrink-0 text-xs px-3 py-1 rounded-md bg-white dark:bg-slate-700 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600 hover:border-brand-blue transition">#세계시장</button>
             </div>
         </div>
 
         <!-- 4. 메인 콘텐츠 영역 -->
         <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-1 w-full grid grid-cols-1 lg:grid-cols-4 gap-8">
+            <section class="lg:col-span-4 bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-5 shadow-xs">
+                <div class="flex flex-wrap justify-between items-center gap-2 mb-4">
+                    <div>
+                        <h2 class="text-lg font-bold text-slate-900 dark:text-white"><i class="fa-solid fa-chart-line text-brand-blue mr-2"></i>내 보유종목 · 세계 증시</h2>
+                        <p id="portfolioUpdated" class="text-xs text-slate-500 mt-1">자동 시세 업데이트를 기다리는 중</p>
+                    </div>
+                    <span class="text-[11px] text-slate-500">수량·매입가 없이 종목명과 시세만 표시</span>
+                </div>
+                <h3 class="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">주요 지수</h3>
+                <div id="marketGrid" class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-2 mb-5"></div>
+                <h3 class="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">내 종목</h3>
+                <div id="holdingsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3"></div>
+                <div class="mt-5 border-t border-slate-200 dark:border-slate-700 pt-4">
+                    <h3 class="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2"><i class="fa-solid fa-file-lines mr-1"></i>최근 보유기업 공시</h3>
+                    <div id="disclosureList" class="text-sm text-slate-500">공시 정보를 불러오는 중</div>
+                </div>
+            </section>
             <div class="lg:col-span-3 space-y-6">
                 <div class="flex justify-between items-center">
                     <h2 class="text-lg font-bold text-slate-900 dark:text-white flex items-center">
-                        <i class="fa-solid fa-bolt text-brand-blue mr-2"></i> 실시간 글로벌 AI 핵심 요약 브리핑
+                        <i class="fa-solid fa-bolt text-brand-blue mr-2"></i> 글로벌 · 보유종목 뉴스 원문
                     </h2>
                     <span id="newsCount" class="text-xs text-slate-500 font-medium">로딩중...</span>
                 </div>
@@ -122,36 +138,67 @@
     </div>
 
     <script>
-        let newsData = [
-            {
-                id: 1,
-                title: "AI 자동 수집 시스템 준비 완료 — 월가 및 유튜버 인사이트 연동 대기 중",
-                category: "세계증시·경제",
-                keyword: "미국FOMC",
-                region: "글로벌",
-                media: "System",
-                date: "방금 전",
-                summary1: "깃허브 Actions에서 워크플로우를 실행하면 최신 뉴스와 인사이트가 수집됩니다",
-                summary2: "핵심형 주기(하루 4회)에 따라 자동으로 외신 및 전문가 발언이 갱신됩니다",
-                summary3: "상단 탭에서 '월가·유튜버 인사이트'를 선택해 전문가들의 전망을 확인하세요",
-                insight: "Actions 실행 후 대시보드에서 최신 브리핑을 확인하시기 바랍니다.",
-                scraped: false
-            }
-        ];
+        let newsData = [];
 
         let currentCategory = '전체';
         let currentKeyword = '전체';
         let currentMedia = 'all';
+
+        function escapeHtml(value) {
+            return String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+        }
+
+        function safeUrl(value) {
+            return /^https:\/\//i.test(String(value || '')) ? escapeHtml(value) : '#';
+        }
+
+        function formatQuote(value, currency) {
+            if (value === null || value === undefined) return '시세 확인 불가';
+            const digits = currency === 'KRW' ? 0 : 2;
+            return new Intl.NumberFormat('ko-KR', { maximumFractionDigits: digits }).format(value) + (currency === 'USD' ? ' USD' : currency === 'POINTS' ? ' pt' : '원');
+        }
+
+        async function loadPortfolio() {
+            try {
+                const [portfolioRes, disclosuresRes] = await Promise.all([
+                    fetch('./portfolio.json?t=' + Date.now()),
+                    fetch('./disclosures.json?t=' + Date.now())
+                ]);
+                if (portfolioRes.ok) {
+                    const data = await portfolioRes.json();
+                    document.getElementById('portfolioUpdated').innerText = `시세 기준: ${data.updated_at || '정보 없음'} · 데이터 제공: Yahoo Finance`;
+                    document.getElementById('marketGrid').innerHTML = (data.indices || []).map(item => {
+                        const positive = Number(item.change) >= 0;
+                        const color = positive ? 'text-red-600 dark:text-red-400' : 'text-blue-600 dark:text-blue-400';
+                        const change = item.change_percent == null ? '—' : `${positive ? '+' : ''}${Number(item.change_percent).toFixed(2)}%`;
+                        return `<div class="rounded-xl bg-slate-50 dark:bg-slate-900 p-3 border border-slate-100 dark:border-slate-700"><div class="text-xs text-slate-500 truncate">${escapeHtml(item.name)}</div><div class="font-bold text-sm mt-1">${formatQuote(item.price, item.currency)}</div><div class="text-xs ${color} mt-1">${change}</div></div>`;
+                    }).join('') || '<p class="text-sm text-slate-500">지수 데이터가 아직 없습니다.</p>';
+                    document.getElementById('holdingsGrid').innerHTML = (data.holdings || []).map(item => {
+                        const positive = Number(item.change) >= 0;
+                        const color = positive ? 'text-red-600 dark:text-red-400' : 'text-blue-600 dark:text-blue-400';
+                        const change = item.change_percent == null ? '시세 확인 필요' : `${positive ? '+' : ''}${formatQuote(item.change, item.currency)} (${positive ? '+' : ''}${Number(item.change_percent).toFixed(2)}%)`;
+                        return `<article class="rounded-xl bg-slate-50 dark:bg-slate-900 p-4 border border-slate-100 dark:border-slate-700"><div class="flex justify-between gap-3"><div class="font-semibold text-sm">${escapeHtml(item.name)}</div><span class="text-xs text-slate-400 shrink-0">${escapeHtml(item.ticker)}</span></div><div class="flex justify-between items-end mt-3 gap-2"><div class="font-bold text-lg">${formatQuote(item.price, item.currency)}</div><div class="text-xs ${color} text-right">${change}</div></div><div class="text-[11px] text-slate-400 mt-2">기준일 ${escapeHtml(item.as_of || '데이터 없음')}</div></article>`;
+                    }).join('') || '<p class="text-sm text-slate-500">보유 종목 데이터가 아직 없습니다.</p>';
+                }
+                if (disclosuresRes.ok) {
+                    const data = await disclosuresRes.json();
+                    const list = data.items || [];
+                    document.getElementById('disclosureList').innerHTML = list.length
+                        ? list.slice(0, 10).map(item => `<div class="py-2 border-b border-slate-100 dark:border-slate-700"><a class="text-brand-blue hover:underline" href="${escapeHtml(item.source_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a><span class="ml-2 text-xs text-slate-400">${escapeHtml(item.company)} · ${escapeHtml(item.date)}</span></div>`).join('')
+                        : (data.configured ? '최근 14일 동안 보유기업의 공시가 없습니다.' : '공시 자동 수집을 사용하려면 GitHub 저장소 Secret에 OPEN_DART_API_KEY를 등록해야 합니다.');
+                }
+            } catch (error) {
+                document.getElementById('portfolioUpdated').innerText = '시세 데이터를 불러오지 못했습니다. 다음 자동 업데이트를 기다려 주세요.';
+            }
+        }
 
         async function loadAutoNews() {
             try {
                 const res = await fetch('./news.json?t=' + Date.now());
                 if (res.ok) {
                     const data = await res.json();
-                    if (data.articles && data.articles.length > 0) {
-                        newsData = data.articles;
-                        document.getElementById('lastUpdated').innerText = `업데이트: ${data.updated_at}`;
-                    }
+                    newsData = data.articles || [];
+                    document.getElementById('lastUpdated').innerText = `업데이트: ${data.updated_at || '정보 없음'}`;
                 }
             } catch (e) {
                 console.log('아직 생성된 news.json이 없어 기본 안내를 표시합니다.');
@@ -187,9 +234,9 @@
                 <div class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-5 shadow-xs hover:shadow-md transition">
                     <div class="flex justify-between items-start mb-2">
                         <div class="flex items-center space-x-2">
-                            <span class="text-xs px-2.5 py-1 rounded-md bg-brand-navy/10 text-brand-navy dark:bg-blue-900/30 dark:text-blue-300 font-semibold">${item.media}</span>
-                            <span class="text-xs px-2 py-0.5 rounded bg-brand-plum/10 text-brand-plum dark:bg-purple-900/30 dark:text-purple-300 font-medium">${item.region}</span>
-                            <span class="text-xs text-slate-400">${item.date}</span>
+                            <span class="text-xs px-2.5 py-1 rounded-md bg-brand-navy/10 text-brand-navy dark:bg-blue-900/30 dark:text-blue-300 font-semibold">${escapeHtml(item.media)}</span>
+                            <span class="text-xs px-2 py-0.5 rounded bg-brand-plum/10 text-brand-plum dark:bg-purple-900/30 dark:text-purple-300 font-medium">${escapeHtml(item.region)}</span>
+                            <span class="text-xs text-slate-400">${escapeHtml(item.date)}</span>
                         </div>
                         <button onclick="toggleScrap(${item.id})" class="text-slate-400 hover:text-brand-plum transition">
                             <i class="${item.scraped ? 'fa-solid text-brand-plum' : 'fa-regular'} fa-bookmark text-base"></i>
@@ -197,28 +244,28 @@
                     </div>
 
                     <h3 class="text-base font-bold text-slate-900 dark:text-white mb-3 hover:text-brand-blue cursor-pointer transition">
-                        ${item.title}
+                        ${item.source_url ? `<a href="${safeUrl(item.source_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>` : escapeHtml(item.title)}
                     </h3>
 
                     <div class="bg-slate-50 dark:bg-slate-900/60 rounded-xl p-3.5 space-y-2 mb-3 text-sm border border-slate-100 dark:border-slate-700/50">
                         <div class="flex items-start space-x-2">
                             <span class="text-xs font-bold text-brand-blue shrink-0 mt-0.5">01</span>
-                            <p class="text-slate-700 dark:text-slate-300">${item.summary1}</p>
+                            <p class="text-slate-700 dark:text-slate-300">${escapeHtml(item.summary1)}</p>
                         </div>
                         <div class="flex items-start space-x-2">
                             <span class="text-xs font-bold text-brand-blue shrink-0 mt-0.5">02</span>
-                            <p class="text-slate-700 dark:text-slate-300">${item.summary2}</p>
+                            <p class="text-slate-700 dark:text-slate-300">${escapeHtml(item.summary2)}</p>
                         </div>
                         <div class="flex items-start space-x-2">
                             <span class="text-xs font-bold text-brand-blue shrink-0 mt-0.5">03</span>
-                            <p class="text-slate-700 dark:text-slate-300">${item.summary3}</p>
+                            <p class="text-slate-700 dark:text-slate-300">${escapeHtml(item.summary3)}</p>
                         </div>
                     </div>
 
                     <div class="bg-brand-plum/5 dark:bg-purple-950/20 border-l-2 border-brand-plum p-3 rounded-r-xl flex items-start space-x-2">
                         <i class="fa-solid fa-lightbulb text-brand-plum text-sm mt-0.5 shrink-0"></i>
                         <p class="text-xs text-slate-700 dark:text-slate-300 font-medium leading-relaxed">
-                            <strong class="text-brand-plum">핵심 시사점:</strong> ${item.insight}
+                            <strong class="text-brand-plum">핵심 시사점:</strong> ${escapeHtml(item.insight)}
                         </p>
                     </div>
                 </div>
@@ -304,6 +351,7 @@
             renderNews();
         }
 
+        loadPortfolio();
         loadAutoNews();
     </script>
 </body>

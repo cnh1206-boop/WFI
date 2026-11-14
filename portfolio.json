@@ -1,0 +1,17 @@
+{
+  "updated_at": "자동 업데이트 실행 전",
+  "indices": [],
+  "holdings": [
+    {"name":"POSCO홀딩스","ticker":"005490","symbol":"005490.KS","market":"KR","price":null,"change":null,"change_percent":null,"currency":"KRW","as_of":null},
+    {"name":"SK하이닉스","ticker":"000660","symbol":"000660.KS","market":"KR","price":null,"change":null,"change_percent":null,"currency":"KRW","as_of":null},
+    {"name":"ACE 미국30년국채액티브(H)","ticker":"453850","symbol":"453850.KS","market":"KR","price":null,"change":null,"change_percent":null,"currency":"KRW","as_of":null},
+    {"name":"아이온큐","ticker":"IONQ","symbol":"IONQ","market":"US","price":null,"change":null,"change_percent":null,"currency":"USD","as_of":null},
+    {"name":"TIGER 2차전지TOP10","ticker":"364980","symbol":"364980.KS","market":"KR","price":null,"change":null,"change_percent":null,"currency":"KRW","as_of":null},
+    {"name":"1Q 미국우주항공테크","ticker":"0131V0","symbol":"0131V0.KS","market":"KR","price":null,"change":null,"change_percent":null,"currency":"KRW","as_of":null},
+    {"name":"TIGER 미국AI빅테크10타겟데일리커버드콜","ticker":"493810","symbol":"493810.KS","market":"KR","price":null,"change":null,"change_percent":null,"currency":"KRW","as_of":null},
+    {"name":"명신산업","ticker":"009900","symbol":"009900.KS","market":"KR","price":null,"change":null,"change_percent":null,"currency":"KRW","as_of":null},
+    {"name":"선바이오","ticker":"067370","symbol":"067370.KQ","market":"KR","price":null,"change":null,"change_percent":null,"currency":"KRW","as_of":null},
+    {"name":"두산퓨얼셀","ticker":"336260","symbol":"336260.KS","market":"KR","price":null,"change":null,"change_percent":null,"currency":"KRW","as_of":null},
+    {"name":"KODEX 삼성전자SK하이닉스채권혼합50","ticker":"0177N0","symbol":"0177N0.KS","market":"KR","price":null,"change":null,"change_percent":null,"currency":"KRW","as_of":null}
+  ]
+}
