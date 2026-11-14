@@ -13,22 +13,23 @@ def get_kst_now_str():
 
 
 def fetch_news():
-  prompt = """전 세계 2차전지, 반도체, 거시경제, 환율·원자재 산업과 관련된 최신 핵심 외신 소식을 6~8가지 선정해서 한국어로 브리핑해줘.
+  prompt = """전 세계 2차전지, 반도체, 거시경제, 환율·원자재 산업의 최신 핵심 뉴스 6건과, 전 세계 주요 경제 유튜버(All-In Podcast, Patrick Boyle, Joseph Carlson, Tom Nash 등) 및 월가 주요 인사(제이미 다이먼, 레이 달리오, 스탠리 드러켄밀러, 캐시 우드, 연준 인사 등)의 최신 발언·시장 전망 3건을 합쳐 총 9건을 선정해서 한국어로 브리핑해줘.
+
 반드시 아래 JSON 배열 형식으로만 응답해줘. 마크다운 백틱(```json)이나 다른 설명 텍스트는 절대 포함하지 마.
 
 [
   {
     "id": 1,
-    "title": "핵심 뉴스 제목",
-    "category": "반드시 다음 4개 중 하나만 정확히 입력: 2차전지·소재, 반도체·AI, 세계증시·경제, 환율·금리·원자재",
+    "title": "핵심 뉴스 제목 (월가·유튜버 발언의 경우 '[인물/채널명] 핵심 발언 요지' 형태로 작성)",
+    "category": "반드시 다음 5개 중 하나만 정확히 입력: 2차전지·소재, 반도체·AI, 세계증시·경제, 환율·금리·원자재, 월가·유튜버 인사이트",
     "keyword": "반드시 다음 4개 중 가장 관련 깊은 것 하나만 정확히 입력: 미국FOMC, 리튬반등, HBM4, 유럽CBAM",
     "region": "미국, 유럽, 아시아, 글로벌 중 택1",
-    "media": "Bloomberg, Reuters, WSJ, FT, CNBC 중 택1",
+    "media": "일반 뉴스는 Bloomberg, Reuters, WSJ, FT, CNBC 중 택1 / 발언 요약은 YouTube, Wall Street, Podcast 중 택1",
     "date": "오늘",
-    "summary1": "첫 번째 핵심 요약 문장",
-    "summary2": "두 번째 핵심 요약 문장",
-    "summary3": "세 번째 핵심 요약 문장",
-    "insight": "이 뉴스가 시장 및 관련 산업(배터리/반도체/증시)에 미치는 핵심 시사점 1~2문장",
+    "summary1": "첫 번째 핵심 요약 문장 (발언 배경 및 핵심 주장)",
+    "summary2": "두 번째 핵심 요약 문장 (구체적 근거 수치 또는 언급된 섹터·종목)",
+    "summary3": "세 번째 핵심 요약 문장 (향후 전망 및 리스크 요인)",
+    "insight": "이 뉴스 또는 발언이 개인 투자자 포트폴리오(반도체·배터리·지수)에 주는 핵심 시사점 1~2문장",
     "scraped": false
   }
 ]"""
@@ -52,7 +53,6 @@ def fetch_news():
 
     articles = json.loads(text)
 
-    # 각 항목에 고유 id 및 기본값 보정 (필터/스크랩 오류 방지)
     for idx, item in enumerate(articles, start=1):
       item["id"] = idx
       item["scraped"] = False
