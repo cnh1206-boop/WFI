@@ -70,4 +70,241 @@
                     <button onclick="filterCategory('전체')" class="category-btn whitespace-nowrap px-4 py-1.5 rounded-full text-sm font-semibold bg-brand-navy text-white shadow-xs transition">전체뉴스</button>
                     <button onclick="filterCategory('2차전지·소재')" class="category-btn whitespace-nowrap px-4 py-1.5 rounded-full text-sm font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition">2차전지·소재</button>
                     <button onclick="filterCategory('반도체·AI')" class="category-btn whitespace-nowrap px-4 py-1.5 rounded-full text-sm font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition">반도체·AI</button>
-                    <button onclick="filterCategory('세계증시·경제')" class="category-btn whitespace-nowrap px-4 py-1.5 rounded-full text-sm font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition">세계
+                    <button onclick="filterCategory('세계증시·경제')" class="category-btn whitespace-nowrap px-4 py-1.5 rounded-full text-sm font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition">세계증시·경제</button>
+                    <button onclick="filterCategory('환율·금리·원자재')" class="category-btn whitespace-nowrap px-4 py-1.5 rounded-full text-sm font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition">환율·금리·원자재</button>
+                    <button onclick="filterCategory('월가·유튜버 인사이트')" class="category-btn whitespace-nowrap px-4 py-1.5 rounded-full text-sm font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition">월가·유튜버 인사이트</button>
+                    <button onclick="filterCategory('스크랩북')" class="category-btn whitespace-nowrap px-4 py-1.5 rounded-full text-sm font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition">스크랩북</button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- 3. 뉴스 키워드 바 -->
+        <div class="bg-slate-50 dark:bg-slate-800/50 border-b border-slate-200 dark:border-slate-700 py-2">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center space-x-2 overflow-x-auto no-scrollbar">
+                <span class="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider shrink-0 mr-1"><i class="fa-solid fa-fire text-brand-plum mr-1"></i> Global Keywords:</span>
+                <button onclick="filterKeyword('전체')" class="keyword-chip shrink-0 text-xs px-3 py-1 rounded-md bg-brand-blue text-white font-medium transition">#전체보기</button>
+                <button onclick="filterKeyword('미국FOMC')" class="keyword-chip shrink-0 text-xs px-3 py-1 rounded-md bg-white dark:bg-slate-700 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600 hover:border-brand-blue transition">#미국FOMC</button>
+                <button onclick="filterKeyword('리튬반등')" class="keyword-chip shrink-0 text-xs px-3 py-1 rounded-md bg-white dark:bg-slate-700 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600 hover:border-brand-blue transition">#배터리·리튬</button>
+                <button onclick="filterKeyword('HBM4')" class="keyword-chip shrink-0 text-xs px-3 py-1 rounded-md bg-white dark:bg-slate-700 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600 hover:border-brand-blue transition">#반도체·HBM</button>
+                <button onclick="filterKeyword('유럽CBAM')" class="keyword-chip shrink-0 text-xs px-3 py-1 rounded-md bg-white dark:bg-slate-700 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600 hover:border-brand-blue transition">#금리·환율·원자재</button>
+            </div>
+        </div>
+
+        <!-- 4. 메인 콘텐츠 영역 -->
+        <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-1 w-full grid grid-cols-1 lg:grid-cols-4 gap-8">
+            <div class="lg:col-span-3 space-y-6">
+                <div class="flex justify-between items-center">
+                    <h2 class="text-lg font-bold text-slate-900 dark:text-white flex items-center">
+                        <i class="fa-solid fa-bolt text-brand-blue mr-2"></i> 실시간 글로벌 AI 핵심 요약 브리핑
+                    </h2>
+                    <span id="newsCount" class="text-xs text-slate-500 font-medium">로딩중...</span>
+                </div>
+
+                <div id="newsFeed" class="space-y-4"></div>
+            </div>
+
+            <div class="space-y-6">
+                <div class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-5 shadow-xs">
+                    <h3 class="text-sm font-bold text-slate-900 dark:text-white mb-3 flex items-center justify-between">
+                        <span><i class="fa-solid fa-newspaper text-brand-navy dark:text-blue-400 mr-2"></i> 글로벌 언론사 필터</span>
+                    </h3>
+                    <div class="grid grid-cols-3 gap-2" id="mediaStand">
+                        <button onclick="filterMedia('all')" class="media-badge px-2 py-2 text-xs font-semibold rounded-lg bg-brand-navy text-white text-center transition">전체</button>
+                        <button onclick="filterMedia('Bloomberg')" class="media-badge px-2 py-2 text-xs font-medium rounded-lg bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 text-center hover:bg-slate-200 transition">Bloomberg</button>
+                        <button onclick="filterMedia('Reuters')" class="media-badge px-2 py-2 text-xs font-medium rounded-lg bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 text-center hover:bg-slate-200 transition">Reuters</button>
+                        <button onclick="filterMedia('WSJ')" class="media-badge px-2 py-2 text-xs font-medium rounded-lg bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 text-center hover:bg-slate-200 transition">WSJ</button>
+                        <button onclick="filterMedia('FT')" class="media-badge px-2 py-2 text-xs font-medium rounded-lg bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 text-center hover:bg-slate-200 transition">FT</button>
+                        <button onclick="filterMedia('CNBC')" class="media-badge px-2 py-2 text-xs font-medium rounded-lg bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 text-center hover:bg-slate-200 transition">CNBC</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        let newsData = [
+            {
+                id: 1,
+                title: "AI 자동 수집 시스템 준비 완료 — 월가 및 유튜버 인사이트 연동 대기 중",
+                category: "세계증시·경제",
+                keyword: "미국FOMC",
+                region: "글로벌",
+                media: "System",
+                date: "방금 전",
+                summary1: "깃허브 Actions에서 워크플로우를 실행하면 최신 뉴스와 인사이트가 수집됩니다",
+                summary2: "핵심형 주기(하루 4회)에 따라 자동으로 외신 및 전문가 발언이 갱신됩니다",
+                summary3: "상단 탭에서 '월가·유튜버 인사이트'를 선택해 전문가들의 전망을 확인하세요",
+                insight: "Actions 실행 후 대시보드에서 최신 브리핑을 확인하시기 바랍니다.",
+                scraped: false
+            }
+        ];
+
+        let currentCategory = '전체';
+        let currentKeyword = '전체';
+        let currentMedia = 'all';
+
+        async function loadAutoNews() {
+            try {
+                const res = await fetch('./news.json?t=' + Date.now());
+                if (res.ok) {
+                    const data = await res.json();
+                    if (data.articles && data.articles.length > 0) {
+                        newsData = data.articles;
+                        document.getElementById('lastUpdated').innerText = `업데이트: ${data.updated_at}`;
+                    }
+                }
+            } catch (e) {
+                console.log('아직 생성된 news.json이 없어 기본 안내를 표시합니다.');
+            }
+            renderNews();
+        }
+
+        function renderNews() {
+            const feed = document.getElementById('newsFeed');
+            const searchVal = document.getElementById('searchInput').value.toLowerCase();
+
+            let filtered = newsData.filter(item => {
+                const matchCat = (currentCategory === '전체' || item.category === currentCategory || (currentCategory === '스크랩북' && item.scraped));
+                const matchKey = (currentKeyword === '전체' || item.keyword === currentKeyword);
+                const matchMedia = (currentMedia === 'all' || (item.media && item.media.toLowerCase().includes(currentMedia.toLowerCase())));
+                const matchSearch = item.title.toLowerCase().includes(searchVal) || item.summary1.toLowerCase().includes(searchVal);
+                return matchCat && matchKey && matchMedia && matchSearch;
+            });
+
+            document.getElementById('newsCount').innerText = `총 ${filtered.length}건`;
+
+            if (filtered.length === 0) {
+                feed.innerHTML = `
+                    <div class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-12 text-center text-slate-400">
+                        <i class="fa-solid fa-folder-open text-4xl mb-3"></i>
+                        <p class="text-sm font-medium">조건에 일치하는 뉴스가 없습니다.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            feed.innerHTML = filtered.map(item => `
+                <div class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-5 shadow-xs hover:shadow-md transition">
+                    <div class="flex justify-between items-start mb-2">
+                        <div class="flex items-center space-x-2">
+                            <span class="text-xs px-2.5 py-1 rounded-md bg-brand-navy/10 text-brand-navy dark:bg-blue-900/30 dark:text-blue-300 font-semibold">${item.media}</span>
+                            <span class="text-xs px-2 py-0.5 rounded bg-brand-plum/10 text-brand-plum dark:bg-purple-900/30 dark:text-purple-300 font-medium">${item.region}</span>
+                            <span class="text-xs text-slate-400">${item.date}</span>
+                        </div>
+                        <button onclick="toggleScrap(${item.id})" class="text-slate-400 hover:text-brand-plum transition">
+                            <i class="${item.scraped ? 'fa-solid text-brand-plum' : 'fa-regular'} fa-bookmark text-base"></i>
+                        </button>
+                    </div>
+
+                    <h3 class="text-base font-bold text-slate-900 dark:text-white mb-3 hover:text-brand-blue cursor-pointer transition">
+                        ${item.title}
+                    </h3>
+
+                    <div class="bg-slate-50 dark:bg-slate-900/60 rounded-xl p-3.5 space-y-2 mb-3 text-sm border border-slate-100 dark:border-slate-700/50">
+                        <div class="flex items-start space-x-2">
+                            <span class="text-xs font-bold text-brand-blue shrink-0 mt-0.5">01</span>
+                            <p class="text-slate-700 dark:text-slate-300">${item.summary1}</p>
+                        </div>
+                        <div class="flex items-start space-x-2">
+                            <span class="text-xs font-bold text-brand-blue shrink-0 mt-0.5">02</span>
+                            <p class="text-slate-700 dark:text-slate-300">${item.summary2}</p>
+                        </div>
+                        <div class="flex items-start space-x-2">
+                            <span class="text-xs font-bold text-brand-blue shrink-0 mt-0.5">03</span>
+                            <p class="text-slate-700 dark:text-slate-300">${item.summary3}</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-brand-plum/5 dark:bg-purple-950/20 border-l-2 border-brand-plum p-3 rounded-r-xl flex items-start space-x-2">
+                        <i class="fa-solid fa-lightbulb text-brand-plum text-sm mt-0.5 shrink-0"></i>
+                        <p class="text-xs text-slate-700 dark:text-slate-300 font-medium leading-relaxed">
+                            <strong class="text-brand-plum">핵심 시사점:</strong> ${item.insight}
+                        </p>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function filterCategory(cat) {
+            currentCategory = cat;
+            document.querySelectorAll('.category-btn').forEach(btn => {
+                if (btn.innerText.includes(cat) || (cat === '전체' && btn.innerText === '전체뉴스')) {
+                    btn.className = "category-btn whitespace-nowrap px-4 py-1.5 rounded-full text-sm font-semibold bg-brand-navy text-white shadow-xs transition";
+                } else {
+                    btn.className = "category-btn whitespace-nowrap px-4 py-1.5 rounded-full text-sm font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition";
+                }
+            });
+            renderNews();
+        }
+
+        function filterKeyword(key) {
+            currentKeyword = key;
+            document.querySelectorAll('.keyword-chip').forEach(chip => {
+                if ((key === '전체' && chip.innerText.includes('전체')) || chip.getAttribute('onclick').includes(key)) {
+                    chip.className = "keyword-chip shrink-0 text-xs px-3 py-1 rounded-md bg-brand-blue text-white font-medium transition";
+                } else {
+                    chip.className = "keyword-chip shrink-0 text-xs px-3 py-1 rounded-md bg-white dark:bg-slate-700 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600 hover:border-brand-blue transition";
+                }
+            });
+            renderNews();
+        }
+
+        function filterMedia(media) {
+            currentMedia = media;
+            document.querySelectorAll('.media-badge').forEach(badge => {
+                if ((media === 'all' && badge.innerText === '전체') || badge.innerText.includes(media)) {
+                    badge.className = "media-badge px-2 py-2 text-xs font-semibold rounded-lg bg-brand-navy text-white text-center transition";
+                } else {
+                    badge.className = "media-badge px-2 py-2 text-xs font-medium rounded-lg bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 text-center hover:bg-slate-200 transition";
+                }
+            });
+            renderNews();
+        }
+
+        function toggleScrap(id) {
+            const item = newsData.find(n => n.id === id);
+            if (item) {
+                item.scraped = !item.scraped;
+                renderNews();
+            }
+        }
+
+        function toggleDarkMode() {
+            const html = document.documentElement;
+            const icon = document.getElementById('darkModeIcon');
+            html.classList.toggle('dark');
+            if (html.classList.contains('dark')) {
+                icon.className = "fa-solid fa-sun text-lg text-yellow-400";
+            } else {
+                icon.className = "fa-solid fa-moon text-lg";
+            }
+        }
+
+        document.getElementById('searchInput').addEventListener('input', renderNews);
+
+        function openAddModal() {
+            const title = prompt("추가할 뉴스 기사 제목을 입력하세요:");
+            if (!title) return;
+            const insight = prompt("AI 분석 및 투자 시사점을 입력하세요:");
+            
+            newsData.unshift({
+                id: Date.now(),
+                title: title,
+                category: "반도체·AI",
+                keyword: "HBM4",
+                region: "글로벌",
+                media: "수동등록",
+                date: "방금 전",
+                summary1: "사용자 직접 등록 브리핑",
+                summary2: "관련 공급망 및 주가 영향 모니터링",
+                summary3: "포트폴리오 점검 반영",
+                insight: insight || "특이사항 점검 후 투자 전략 반영 권장.",
+                scraped: false
+            });
+            renderNews();
+        }
+
+        loadAutoNews();
+    </script>
+</body>
+</html>
