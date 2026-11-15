@@ -154,6 +154,7 @@
 
         function formatQuote(value, currency) {
             if (value === null || value === undefined) return '시세 확인 불가';
+            if (currency === 'PERCENT') return new Intl.NumberFormat('ko-KR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(value) + '%';
             const digits = currency === 'KRW' ? 0 : 2;
             return new Intl.NumberFormat('ko-KR', { maximumFractionDigits: digits }).format(value) + (currency === 'USD' ? ' USD' : currency === 'POINTS' ? ' pt' : '원');
         }
@@ -170,7 +171,9 @@
                     document.getElementById('marketGrid').innerHTML = (data.indices || []).map(item => {
                         const positive = Number(item.change) >= 0;
                         const color = positive ? 'text-red-600 dark:text-red-400' : 'text-blue-600 dark:text-blue-400';
-                        const change = item.change_percent == null ? '—' : `${positive ? '+' : ''}${Number(item.change_percent).toFixed(2)}%`;
+                        const change = item.change_percent == null ? '—' : item.currency === 'PERCENT'
+                            ? `${positive ? '+' : ''}${Number(item.change).toFixed(2)}%p`
+                            : `${positive ? '+' : ''}${Number(item.change_percent).toFixed(2)}%`;
                         return `<div class="rounded-xl bg-slate-50 dark:bg-slate-900 p-3 border border-slate-100 dark:border-slate-700"><div class="text-xs text-slate-500 truncate">${escapeHtml(item.name)}</div><div class="font-bold text-sm mt-1">${formatQuote(item.price, item.currency)}</div><div class="text-xs ${color} mt-1">${change}</div></div>`;
                     }).join('') || '<p class="text-sm text-slate-500">지수 데이터가 아직 없습니다.</p>';
                     document.getElementById('holdingsGrid').innerHTML = (data.holdings || []).map(item => {

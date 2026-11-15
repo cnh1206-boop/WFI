@@ -18,6 +18,8 @@ with open("holdings.json", encoding="utf-8") as holdings_file:
 MARKETS = [
     {"name": "S&P 500", "symbol": "^GSPC", "region": "미국"},
     {"name": "NASDAQ 종합", "symbol": "^IXIC", "region": "미국"},
+    {"name": "미국 10년물 국채금리", "symbol": "^TNX", "region": "미국", "currency": "PERCENT"},
+    {"name": "필라델피아 반도체지수", "symbol": "^SOX", "region": "미국"},
     {"name": "다우존스", "symbol": "^DJI", "region": "미국"},
     {"name": "코스피", "symbol": "^KS11", "region": "한국"},
     {"name": "코스닥", "symbol": "^KQ11", "region": "한국"},
@@ -53,7 +55,7 @@ def fetch_quote(item):
             "price": round(price, 4),
             "change": round(price - previous, 4),
             "change_percent": round((price - previous) / previous * 100, 4) if previous else 0,
-            "currency": "USD" if item["market"] == "US" else "POINTS" if item["market"] == "INDEX" else "KRW",
+            "currency": item.get("currency") or ("USD" if item["market"] == "US" else "POINTS" if item["market"] == "INDEX" else "KRW"),
             "as_of": str(closes.index[-1].date()),
             "error": None,
         }
@@ -61,7 +63,7 @@ def fetch_quote(item):
         print(f'시세 조회 실패: {item["name"]} ({item["symbol"]}): {exc}')
         return {
             **item, "price": None, "change": None, "change_percent": None,
-            "currency": "USD" if item["market"] == "US" else "POINTS" if item["market"] == "INDEX" else "KRW",
+            "currency": item.get("currency") or ("USD" if item["market"] == "US" else "POINTS" if item["market"] == "INDEX" else "KRW"),
             "as_of": None, "error": str(exc),
         }
 
