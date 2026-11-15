@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15 23:31 KST",
+  "updated_at": "2026-11-16 05:49 KST",
   "articles": [
     {
       "id": 1,
@@ -19,22 +19,6 @@
     },
     {
       "id": 2,
-      "title": "물가 약발도 안 통했다…반도체 3.4% 급락 [11/14 G모닝]｜Global Money Club - 중앙일보",
-      "category": "세계증시·경제",
-      "keyword": "세계시장",
-      "region": "글로벌",
-      "media": "중앙일보",
-      "date": "Fri, 13 Nov 2026 22:30:54 GMT",
-      "summary1": "물가 약발도 안 통했다…반도체 3.4% 급락 [11/14 G모닝]｜Global Money Club - 중앙일보",
-      "summary2": "물가 약발도 안 통했다…반도체 3.4% 급락 [11/14 G모닝]｜Global Money Club 중앙일보",
-      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
-      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5WTDBVRW1JbHozOE4wUWZZYmtlU04ydnhEbGF6c0EzNmk3UldiTWZxNHk0am1Sc1QtaXVZdk1Ba0tsNl83X2R4QUpOODllQTZLNmtvclh0QWstekk?oc=5",
-      "related_tickers": [],
-      "scraped": false
-    },
-    {
-      "id": 3,
       "title": "미국 주식 시장 데이터의 완전한 조망 - Nasdaq",
       "category": "세계증시·경제",
       "keyword": "세계시장",
@@ -50,7 +34,7 @@
       "scraped": false
     },
     {
-      "id": 4,
+      "id": 3,
       "title": "New York stocks fall across the board on AI investment worries … Nasdaq down 2.15%↓ - 경향신문",
       "category": "세계증시·경제",
       "keyword": "세계시장",
@@ -66,7 +50,39 @@
       "scraped": false
     },
     {
+      "id": 4,
+      "title": "유가 하락·호실적에 다우·S&P500 반등했지만…나스닥 부진 [뉴욕증시 브리핑] - 한국경제",
+      "category": "세계증시·경제",
+      "keyword": "세계시장",
+      "region": "글로벌",
+      "media": "한국경제",
+      "date": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "summary1": "유가 하락·호실적에 다우·S&P500 반등했지만…나스닥 부진 [뉴욕증시 브리핑] - 한국경제",
+      "summary2": "유가 하락·호실적에 다우·S&P500 반등했지만…나스닥 부진 [뉴욕증시 브리핑] 한국경제",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wUm9NMWJPSHF6cDZYMUNZUXpnRE5lMHlLdVFtMEtuZ1RvWlhoVjNHaGJ1M3k1ZXF5NEpYd1hjSEJXcXNwdGFIOVdqY2tFcmlhbXFuMFo5U3N2UQ?oc=5",
+      "related_tickers": [],
+      "scraped": false
+    },
+    {
       "id": 5,
+      "title": "Lee Hyung-il “Mid-3% growth possible this year… Korea·U.S. currency swap is necessary” - 경향신문",
+      "category": "세계증시·경제",
+      "keyword": "세계시장",
+      "region": "글로벌",
+      "media": "경향신문",
+      "date": "Mon, 19 Oct 2026 07:00:00 GMT",
+      "summary1": "Lee Hyung-il “Mid-3% growth possible this year… Korea·U.S. currency swap is necessary” - 경향신문",
+      "summary2": "Lee Hyung-il “Mid-3% growth possible this year… Korea·U.S. currency swap is necessary” 경향신문",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB5S1A4dHFiUUpVeURSQWxKX1ZBWk9UYTE1SmwzSGpaaTU0U0FMNFhBWmJROVM5eXBvTzY4Ukg5T1EzaUppeFFtemxkTklkeDJhNUFENk5YX01UTENoVnc?oc=5",
+      "related_tickers": [],
+      "scraped": false
+    },
+    {
+      "id": 6,
       "title": "[조홍균의 금융경제 읽기] 거시경제지표만으로 민생을 설명할 수 없다···美중간선거의 교훈 - KPI뉴스",
       "category": "세계증시·경제",
       "keyword": "세계시장",
@@ -82,7 +98,7 @@
       "scraped": false
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "The high-rate era is already here. Are your finances ready? - Korea JoongAng Daily",
       "category": "세계증시·경제",
       "keyword": "세계시장",
@@ -98,7 +114,7 @@
       "scraped": false
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "Won reaches 17-year low against dollar | The DONG-A ILBO - 동아일보",
       "category": "세계증시·경제",
       "keyword": "세계시장",
@@ -110,22 +126,6 @@
       "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
       "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
       "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8zQy1NbDJGYXFxNC13UFFWU2JCaUpGM09QSnk3bUttWXU2QXhqUjE3OXJMdG9TVWlNWE91Z0FGS0RVMjVCTDlfdkFXX1c1TVBlQVBodnJDZlJiTXBxODctTnBzaGp3dw?oc=5",
-      "related_tickers": [],
-      "scraped": false
-    },
-    {
-      "id": 8,
-      "title": "Will Korea and the U.S. diverge on interest rates? (KOR) - Korea JoongAng Daily",
-      "category": "세계증시·경제",
-      "keyword": "세계시장",
-      "region": "글로벌",
-      "media": "Korea JoongAng Daily",
-      "date": "Fri, 12 Dec 2025 08:00:00 GMT",
-      "summary1": "Will Korea and the U.S. diverge on interest rates? (KOR) - Korea JoongAng Daily",
-      "summary2": "Will Korea and the U.S. diverge on interest rates? (KOR) Korea JoongAng Daily",
-      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
-      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVFpSZC1hZUJNcURUV1cyOV9OVmphTUU1V3lVYkJRRmVtV0l5WHViblljNjViaDNRNm9LU3hsdWlQZk9xRVJ0RXhNNW56d1JhbzRsM2xYWS1lU05mbjhMQUN6RC1HcmtGXzk0MUY3eGpjWWNVdGRPRWRPTGl6Zk9JTmtkZGZzckNmYmFQdDZNSF92VkpGUDUySDF6a0dNa0IxNmNWNUxjaWZyWXZtRXdJ?oc=5",
       "related_tickers": [],
       "scraped": false
     },
@@ -329,17 +329,17 @@
     },
     {
       "id": 20,
-      "title": "IonQ, Elisity 최대 13억 달러 주식 거래로 인수 - Investing.com 한국어",
+      "title": "IonQ 주가는 왜 오늘 급등했을까? - Investing.com 한국어",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
       "region": "미국",
       "media": "Investing.com 한국어",
-      "date": "Mon, 12 Oct 2026 07:00:00 GMT",
-      "summary1": "IonQ, Elisity 최대 13억 달러 주식 거래로 인수 - Investing.com 한국어",
-      "summary2": "IonQ, Elisity 최대 13억 달러 주식 거래로 인수 Investing.com 한국어",
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "summary1": "IonQ 주가는 왜 오늘 급등했을까? - Investing.com 한국어",
+      "summary2": "IonQ 주가는 왜 오늘 급등했을까? Investing.com 한국어",
       "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
       "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBFOTNGQUpwZFUwbmVRZDM3NTlKSDl2SVUydTdXemY5V08yR1I1YUJXTkdHZmtCcWJ5WnhYUjdrYjZUUGdfZ2JVdGNzdHhDc2dpNTV3ZU56cTBmdFZ3VkJ5WWlTdzdYTm9fMVBMbEFBRmE1VFVHczlF?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB4bW1YNmtJbDRkeXNSOVRMRGRxN2NJcmFhOXZQSk90eHJQb1MyNzlTU3d6RUg5UmtpNmhmcWtJOVM3M204OG50LTRQRkpjQ1hjRFhqNXN3ckJGbmoxdGJCb1pmWl9hUUVBdWFiVWtfWS1GM3VmSVlV?oc=5",
       "related_tickers": [
         "IONQ"
       ],
@@ -419,66 +419,6 @@
     },
     {
       "id": 25,
-      "title": "[오늘의 이 종목] AI 데이터센터 수주 기대 '두산퓨얼셀' · 밸류체인 핵심 '한선엔지니어링' - 머니투데이 - 머니투데이",
-      "category": "보유종목 뉴스",
-      "keyword": "보유종목",
-      "region": "한국",
-      "media": "머니투데이",
-      "date": "Thu, 12 Nov 2026 02:49:51 GMT",
-      "summary1": "[오늘의 이 종목] AI 데이터센터 수주 기대 '두산퓨얼셀' · 밸류체인 핵심 '한선엔지니어링' - 머니투데이 - 머니투데이",
-      "summary2": "[오늘의 이 종목] AI 데이터센터 수주 기대 '두산퓨얼셀' · 밸류체인 핵심 '한선엔지니어링' - 머니투데이 머니투데이",
-      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
-      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5qaGNoNFlieVRmYnFnd3N1cHo5VC1fZXNLaGxGdTFGTUdxbXR1U0VoMXNiY0JHSURlTm1VSF9LLVU1dUx5QXFOUENHb25ob1FQT05mSGtUcHBoaVl6aEVISnMweklvaU9N0gFuQVVfeXFMTlBCZU1vZ1FiWUJSVW41Vmhxc21SM3d3VE95Ymlra2RrSWw0NktZbTQxZG4wSHpCTkc1SlB3WkhyR3ZTakNqVXF0ekJ4bVNGdzU2X2V5d29BRVFxbDFabFAyUmV3Q09GNlByQnkwUUE?oc=5",
-      "related_tickers": [
-        "009900",
-        "067370",
-        "336260"
-      ],
-      "scraped": false
-    },
-    {
-      "id": 26,
-      "title": "\"AI 전력 수요 잡는다\"…두산퓨얼셀, 9분기 연속 적자 딛고 북미 공략 지속 - 뉴시스",
-      "category": "보유종목 뉴스",
-      "keyword": "보유종목",
-      "region": "한국",
-      "media": "뉴시스",
-      "date": "Wed, 11 Nov 2026 02:40:19 GMT",
-      "summary1": "\"AI 전력 수요 잡는다\"…두산퓨얼셀, 9분기 연속 적자 딛고 북미 공략 지속 - 뉴시스",
-      "summary2": "\"AI 전력 수요 잡는다\"…두산퓨얼셀, 9분기 연속 적자 딛고 북미 공략 지속 뉴시스",
-      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
-      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xM1pYSzVFczBLbTFRN2MtRU43ekNLMzgzLXFiZUYxWDk3UFhVUjhURlRRY05SQTFYcjBhNG55N1d0cHlZUzJiZ1RzZHFiNVUyb2NwcER5N3hSM2hLTUdacNIBeEFVX3lxTE40RHAzZGJjX24tLXdvYkNZdHA0TzdhRUF3RUdENUtaWnJ2SkZqMEdOTlpPWnlPY1BldlhiSFRNWEZEV2xBZ0tUX0pZM285MGZGMHVFTnc0T094SVpvb3lnQnNUc21UMmZYeU9BTU92VW51LXZuYXdvMA?oc=5",
-      "related_tickers": [
-        "009900",
-        "067370",
-        "336260"
-      ],
-      "scraped": false
-    },
-    {
-      "id": 27,
-      "title": "[오늘의 이 종목] AI 데이터센터 수주 기대 '두산퓨얼셀' · 밸류체인 핵심 '한선엔지니어링' - MTN 머니투데이방송",
-      "category": "보유종목 뉴스",
-      "keyword": "보유종목",
-      "region": "한국",
-      "media": "MTN 머니투데이방송",
-      "date": "Thu, 12 Nov 2026 02:17:56 GMT",
-      "summary1": "[오늘의 이 종목] AI 데이터센터 수주 기대 '두산퓨얼셀' · 밸류체인 핵심 '한선엔지니어링' - MTN 머니투데이방송",
-      "summary2": "[오늘의 이 종목] AI 데이터센터 수주 기대 '두산퓨얼셀' · 밸류체인 핵심 '한선엔지니어링' MTN 머니투데이방송",
-      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
-      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5MdGZ5eHRFNWNldFA3T1lxWWFlMkIxMnlNOExseFUyS3dNUTVsQXg4TnhiZC1JbTQzTGcteEN1UXF2TlhnOUVJT2h4ZlR6SG5jT2FLY19tb2hoUjYweDFr?oc=5",
-      "related_tickers": [
-        "009900",
-        "067370",
-        "336260"
-      ],
-      "scraped": false
-    },
-    {
-      "id": 28,
       "title": "두산퓨얼셀, 영구채 4천억으로 '급한 불' 껐지만 - 비즈워치",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
@@ -490,6 +430,66 @@
       "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
       "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
       "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xSHdWdzktMFRnV3dJODZCazJkNVBHZXJ6SVZkaXN4SVU1MUxnVEYtQXZYZFlGUWNRMDZrM0RqbEU5YVg2bFVUYU5PS3dXYmRXVFJ1cGs0bWRMNjAxY1hGaU0xVHotamRaeWdObg?oc=5",
+      "related_tickers": [
+        "009900",
+        "067370",
+        "336260"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 26,
+      "title": "두산퓨얼셀, ‘독일향 매출’ 내년에 집중적 인식 - 금융소비자뉴스",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "한국",
+      "media": "금융소비자뉴스",
+      "date": "Fri, 30 Oct 2026 07:00:00 GMT",
+      "summary1": "두산퓨얼셀, ‘독일향 매출’ 내년에 집중적 인식 - 금융소비자뉴스",
+      "summary2": "두산퓨얼셀, ‘독일향 매출’ 내년에 집중적 인식 금융소비자뉴스",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5NVGFtd2lxeG5pVWh6a3FmSzlFQkhlWEJJQ01CY1BTS3JlM0Q5VGhLa3pnMjZ0UGp3UU9wQ0tJZENjbFc2bDN4dzJ4VktVQ2hqanczQnp6Q3d5ZmpVamdfR3VIa3lRdHNkeUE?oc=5",
+      "related_tickers": [
+        "009900",
+        "067370",
+        "336260"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 27,
+      "title": "두산퓨얼셀, SOFC 스택 파운드리 첫 결실 맺어 - 월간수소경제",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "한국",
+      "media": "월간수소경제",
+      "date": "Thu, 06 Aug 2026 07:00:00 GMT",
+      "summary1": "두산퓨얼셀, SOFC 스택 파운드리 첫 결실 맺어 - 월간수소경제",
+      "summary2": "두산퓨얼셀, SOFC 스택 파운드리 첫 결실 맺어 월간수소경제",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBnZVRQLUJOVlJERnRqeTNxX1cxSGk5UnFsczZNLWpkUFVXd1JLa2ZrQk9aTEZVVEpYZUJRbE8wc0xMbmhhbUNXczgxVUg3WXBWdVZORWNqTG9OZUhybXlSSjdxQ2w3UQ?oc=5",
+      "related_tickers": [
+        "009900",
+        "067370",
+        "336260"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 28,
+      "title": "두산퓨얼셀, 4000억 자금 조달 마무리 - 파이낸셜뉴스",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "한국",
+      "media": "파이낸셜뉴스",
+      "date": "Thu, 29 Oct 2026 07:00:00 GMT",
+      "summary1": "두산퓨얼셀, 4000억 자금 조달 마무리 - 파이낸셜뉴스",
+      "summary2": "두산퓨얼셀, 4000억 자금 조달 마무리 파이낸셜뉴스",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYNUE5bExYM2R0MzdHWWRscnp4RE1NN3E1WURSUDg5emlQOWk1bmM1T0FZcU40V08wUmFQZnc0TWkwZUd0VER5VFhCbWNXa2ZPOGttZzVGYS0xUQ?oc=5",
       "related_tickers": [
         "009900",
         "067370",
