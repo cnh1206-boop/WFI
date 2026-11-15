@@ -1,4 +1,448 @@
 {
-  "updated_at": "자동 업데이트 실행 전",
-  "articles": []
+  "updated_at": "2026-11-15 09:20 KST",
+  "articles": [
+    {
+      "id": 1,
+      "title": "ADI Global Distribution 주가, 오늘 47.9% 급락한 이유 - Investing.com 한국어",
+      "category": "세계증시·경제",
+      "keyword": "세계시장",
+      "region": "글로벌",
+      "media": "Investing.com 한국어",
+      "date": "Thu, 12 Nov 2026 20:32:00 GMT",
+      "summary1": "ADI Global Distribution 주가, 오늘 47.9% 급락한 이유 - Investing.com 한국어",
+      "summary2": "ADI Global Distribution 주가, 오늘 47.9% 급락한 이유 Investing.com 한국어",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1OVXhEWW9DQkZ3XzhQYmpEZ09aSGlGRHlqNmV0b29aQ1NqOUpqclRMaDRfY181NkdRWHh4Z18yazNoRTNrOXEyd0VrRExBb1F2aVpfcXlCSFNvU2hFMDlMaWhNN1R6SWhyd1Q0QzVsR2RuYXJBRV9Z?oc=5",
+      "related_tickers": [],
+      "scraped": false
+    },
+    {
+      "id": 2,
+      "title": "【미국 프리마켓】 엔비디아 2% 이상 반등; 대규모 글로벌 IT 대란 속 마이크로소프트 2% 이상 하락; 10월 PPI 발표 예정 - TradingKey",
+      "category": "세계증시·경제",
+      "keyword": "세계시장",
+      "region": "글로벌",
+      "media": "TradingKey",
+      "date": "Thu, 12 Nov 2026 19:37:00 GMT",
+      "summary1": "【미국 프리마켓】 엔비디아 2% 이상 반등; 대규모 글로벌 IT 대란 속 마이크로소프트 2% 이상 하락; 10월 PPI 발표 예정 - TradingKey",
+      "summary2": "【미국 프리마켓】 엔비디아 2% 이상 반등; 대규모 글로벌 IT 대란 속 마이크로소프트 2% 이상 하락; 10월 PPI 발표 예정 TradingKey",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVFlWeng1Q1hTaFBkT1V0ZGNNVzVtVnNtNDBBZjNiQVFheEpiZnNqSkZiS0UtYURwRjd0RjR5NTc4M25fRFRrNVdvR3BzX0pBVUNraUNldDdxN1FVZFJrV2U0Zm5hRU92QnFiQU5lWS04R2VtMkN1QUc5NThqZjYyaXd1MlZTVENjTmQ3WkEwN0pyLUhvQzQ0QU1FQWQ0QkhMQVE?oc=5",
+      "related_tickers": [],
+      "scraped": false
+    },
+    {
+      "id": 3,
+      "title": "물가 약발도 안 통했다…반도체 3.4% 급락 [11/14 G모닝]｜Global Money Club - 중앙일보",
+      "category": "세계증시·경제",
+      "keyword": "세계시장",
+      "region": "글로벌",
+      "media": "중앙일보",
+      "date": "Fri, 13 Nov 2026 22:30:54 GMT",
+      "summary1": "물가 약발도 안 통했다…반도체 3.4% 급락 [11/14 G모닝]｜Global Money Club - 중앙일보",
+      "summary2": "물가 약발도 안 통했다…반도체 3.4% 급락 [11/14 G모닝]｜Global Money Club 중앙일보",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5WTDBVRW1JbHozOE4wUWZZYmtlU04ydnhEbGF6c0EzNmk3UldiTWZxNHk0am1Sc1QtaXVZdk1Ba0tsNl83X2R4QUpOODllQTZLNmtvclh0QWstekk?oc=5",
+      "related_tickers": [],
+      "scraped": false
+    },
+    {
+      "id": 4,
+      "title": "미국 주식 시장 데이터의 완전한 조망 - Nasdaq",
+      "category": "세계증시·경제",
+      "keyword": "세계시장",
+      "region": "글로벌",
+      "media": "Nasdaq",
+      "date": "Fri, 18 Sep 2026 19:16:32 GMT",
+      "summary1": "미국 주식 시장 데이터의 완전한 조망 - Nasdaq",
+      "summary2": "미국 주식 시장 데이터의 완전한 조망 Nasdaq",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUGRDdXp4Z2pFVUVFR29QRm9mcnNoVVV0VF9kQm92WlhWVnVJd2R1NzdDaHFkV1hFaXFGOE1rdFZtMVhDV1Zjdk8xcEJ3MG5KS0wtVURTcDUwM21WSUgxeHY1a2NtWTlERXFVak5CblFoYk1jOXhxQjdBTmU1dHk2Yw?oc=5",
+      "related_tickers": [],
+      "scraped": false
+    },
+    {
+      "id": 5,
+      "title": "[조홍균의 금융경제 읽기] 거시경제지표만으로 민생을 설명할 수 없다···美중간선거의 교훈 - KPI뉴스",
+      "category": "세계증시·경제",
+      "keyword": "세계시장",
+      "region": "글로벌",
+      "media": "KPI뉴스",
+      "date": "Mon, 09 Nov 2026 07:35:22 GMT",
+      "summary1": "[조홍균의 금융경제 읽기] 거시경제지표만으로 민생을 설명할 수 없다···美중간선거의 교훈 - KPI뉴스",
+      "summary2": "[조홍균의 금융경제 읽기] 거시경제지표만으로 민생을 설명할 수 없다···美중간선거의 교훈 KPI뉴스",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE01dnU5UEJhOWhCNEF3UVFmaUNGc2lWa2JYamJoZEpKNG5Geng3SzJTQmM5bUlBd2Y3Q1NDZ1VsZDNxOERzU2Z2WE9uUFo2cU41dTNkdW4tY9IBU0FVX3lxTE9MZWhSY3lXVnlOYm8wUWxobWVMUlJFVjBNc0x1Skk0Rk40aXFndXVyc2U2cGlLQTRFZ0trai1wRUJNNHRFSmtpcWltTEViZnNCdEhB?oc=5",
+      "related_tickers": [],
+      "scraped": false
+    },
+    {
+      "id": 6,
+      "title": "Lee Hyung-il “Mid-3% growth possible this year… Korea·U.S. currency swap is necessary” - 경향신문",
+      "category": "세계증시·경제",
+      "keyword": "세계시장",
+      "region": "글로벌",
+      "media": "경향신문",
+      "date": "Mon, 19 Oct 2026 07:00:00 GMT",
+      "summary1": "Lee Hyung-il “Mid-3% growth possible this year… Korea·U.S. currency swap is necessary” - 경향신문",
+      "summary2": "Lee Hyung-il “Mid-3% growth possible this year… Korea·U.S. currency swap is necessary” 경향신문",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB5S1A4dHFiUUpVeURSQWxKX1ZBWk9UYTE1SmwzSGpaaTU0U0FMNFhBWmJROVM5eXBvTzY4Ukg5T1EzaUppeFFtemxkTklkeDJhNUFENk5YX01UTENoVnc?oc=5",
+      "related_tickers": [],
+      "scraped": false
+    },
+    {
+      "id": 7,
+      "title": "The high-rate era is already here. Are your finances ready? - Korea JoongAng Daily",
+      "category": "세계증시·경제",
+      "keyword": "세계시장",
+      "region": "글로벌",
+      "media": "Korea JoongAng Daily",
+      "date": "Fri, 23 Oct 2026 07:00:00 GMT",
+      "summary1": "The high-rate era is already here. Are your finances ready? - Korea JoongAng Daily",
+      "summary2": "The high-rate era is already here. Are your finances ready? Korea JoongAng Daily",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPT05nVjJmZWNwVlJoWGQyU0QzcGo3WGVqanZBVmJmLV9OQVNxZU5kVGhYd2w3WThMX2VpWFVDLWgydUNJQlhLQk0tLXNyN1pVSGdCc1NNcnlmQzBxUjdCOTd5T0s1SDVncmhHVnYteXlicFZVSGJMOWJFRzJ0a1M5c3B1b3M1UXRpVXVrUWVmNW9hZEtuNDJzRjZ3VzVuTmliR0k3T29CaV9oblJtc0NJZWNscFhCSUU0ZjAwTkltS2llejlC?oc=5",
+      "related_tickers": [],
+      "scraped": false
+    },
+    {
+      "id": 8,
+      "title": "Won reaches 17-year low against dollar | The DONG-A ILBO - 동아일보",
+      "category": "세계증시·경제",
+      "keyword": "세계시장",
+      "region": "글로벌",
+      "media": "동아일보",
+      "date": "Mon, 08 Jun 2026 07:00:00 GMT",
+      "summary1": "Won reaches 17-year low against dollar | The DONG-A ILBO - 동아일보",
+      "summary2": "Won reaches 17-year low against dollar | The DONG-A ILBO 동아일보",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8zQy1NbDJGYXFxNC13UFFWU2JCaUpGM09QSnk3bUttWXU2QXhqUjE3OXJMdG9TVWlNWE91Z0FGS0RVMjVCTDlfdkFXX1c1TVBlQVBodnJDZlJiTXBxODctTnBzaGp3dw?oc=5",
+      "related_tickers": [],
+      "scraped": false
+    },
+    {
+      "id": 9,
+      "title": "POSCO홀딩스 주가, 오늘 상승한 이유는? - Investing.com 한국어",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "한국",
+      "media": "Investing.com 한국어",
+      "date": "Mon, 02 Nov 2026 08:00:00 GMT",
+      "summary1": "POSCO홀딩스 주가, 오늘 상승한 이유는? - Investing.com 한국어",
+      "summary2": "POSCO홀딩스 주가, 오늘 상승한 이유는? Investing.com 한국어",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5WQkdabVJVVkltNmV3YWQ4T0FIWWpIXzVaS1FZODZhV2tiZ1M3RWpOc3RwS3R6ZU1BODVwa2Rud2xlWEVzNmZiRHVjeWdIZWxIZjNoeE9DQWJjMkI4WUJYVVNab1RlN1BYbWhOUVc0cTliSkJTYTRz?oc=5",
+      "related_tickers": [
+        "005490"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 10,
+      "title": "‘연중 최저가’ 포스코홀딩스…추가 하락 후 반등 전망한 이유 - 한국경제",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "한국",
+      "media": "한국경제",
+      "date": "Tue, 03 Nov 2026 22:20:02 GMT",
+      "summary1": "‘연중 최저가’ 포스코홀딩스…추가 하락 후 반등 전망한 이유 - 한국경제",
+      "summary2": "‘연중 최저가’ 포스코홀딩스…추가 하락 후 반등 전망한 이유 한국경제",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43YjdNVUZ6YXkwMEZDN1JGYTMxbGI4cDBBbzIwUXdESXBCV0dQdE9GN25LbGxNYzJfckNkYVNCYkE3VWhNQXpkQk9jajFhOUJOQmt0aGNtV2hiZw?oc=5",
+      "related_tickers": [
+        "005490"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 11,
+      "title": "[헬로스톡] 10/1 주목할 종목 : 삼성전자·POSCO홀딩스·한국항공우주·현대모비스 - 헬로티",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "한국",
+      "media": "헬로티",
+      "date": "Thu, 01 Oct 2026 07:00:00 GMT",
+      "summary1": "[헬로스톡] 10/1 주목할 종목 : 삼성전자·POSCO홀딩스·한국항공우주·현대모비스 - 헬로티",
+      "summary2": "[헬로스톡] 10/1 주목할 종목 : 삼성전자·POSCO홀딩스·한국항공우주·현대모비스 헬로티",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BcVZ1TDByM1lqdXNIWm1RNTBhYncxSnFXMlJmN3czLTJzR1NNcENyeS0teERIWTRzWnh5cS1FQkpaUzNuemh3TUlVbjV5bTJCcmtiTTRSa2hXdWJVQjZJ?oc=5",
+      "related_tickers": [
+        "005490"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 12,
+      "title": "포스코홀딩스, 리튬·지분매각 선언에 증권가 “주가 재평가” - 매일경제",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "한국",
+      "media": "매일경제",
+      "date": "Fri, 03 Jul 2026 07:00:00 GMT",
+      "summary1": "포스코홀딩스, 리튬·지분매각 선언에 증권가 “주가 재평가” - 매일경제",
+      "summary2": "포스코홀딩스, 리튬·지분매각 선언에 증권가 “주가 재평가” 매일경제",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tdXdUNTJZMDlUcURPUndVU0JES0VKcTJfdExneFVVZkxpdjRfMGE5Q1Z1LWlSVDkycjQxYlFLWGtDX0lKWV91VXludnpXNWVwZmc?oc=5",
+      "related_tickers": [
+        "005490"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 13,
+      "title": "AI 관련 주식 강세, SK하이닉스 11% 상승, 마이크론과 샌디스크 4% 상승 - CoinDesk",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "한국",
+      "media": "CoinDesk",
+      "date": "Wed, 28 Oct 2026 07:00:00 GMT",
+      "summary1": "AI 관련 주식 강세, SK하이닉스 11% 상승, 마이크론과 샌디스크 4% 상승 - CoinDesk",
+      "summary2": "AI 관련 주식 강세, SK하이닉스 11% 상승, 마이크론과 샌디스크 4% 상승 CoinDesk",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbmc4d2RSU21kMXV6U2hiV0R5ei1Cd0JxSl9pVm5iSkY4S1dLMDVPeGRTVUdkcFVuZkJqOEV0UDBZMVZhRmw2ei1RMnBoTkpUd0M3ZUpZOEpFX1hOMFZiV3RFOG8tdzd4ajA5RFpGa0VSeTUydnNvOHZlYWQzbllYbG9ZUFZvMTg5UVVWbWxabmttM3hmM3dGNEFwTEJybVFpLTRYNlRSUQ?oc=5",
+      "related_tickers": [
+        "000660"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 14,
+      "title": "‘40조원 흥행’ SK하이닉스, 주가 전망은 185만 vs 420만원 - 중앙일보",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "한국",
+      "media": "중앙일보",
+      "date": "Fri, 10 Jul 2026 07:00:00 GMT",
+      "summary1": "‘40조원 흥행’ SK하이닉스, 주가 전망은 185만 vs 420만원 - 중앙일보",
+      "summary2": "‘40조원 흥행’ SK하이닉스, 주가 전망은 185만 vs 420만원 중앙일보",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mNTRsSW5wMjdoRVZBUkFnY0I0TG5BUTZJeHBLOEJ4UGtGUVU1WDhLQkR1cWpKcW94b21iNXZjdDBISkFDRU9taEJDQ3Nnc0ZtcjdNTF9R?oc=5",
+      "related_tickers": [
+        "000660"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 15,
+      "title": "SK하이닉스, 미국 증시 초대형 상장…약 39조원 조달 - BBC",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "한국",
+      "media": "BBC",
+      "date": "Fri, 10 Jul 2026 07:00:00 GMT",
+      "summary1": "SK하이닉스, 미국 증시 초대형 상장…약 39조원 조달 - BBC",
+      "summary2": "SK하이닉스, 미국 증시 초대형 상장…약 39조원 조달 BBC",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9WRHNIVTQtNmw3TDZNZGxJQjFQSjVuZGtjYzRibHZwaXpZd21XVmVyX1pjX2xRaXlVWVBkVXFkdWRLR2RVMThYeVp4R0JGZ1JfMDBlMVJQbHRON2FN0gFiQVVfeXFMUE1kSXlWZWtDcm5fNTZGOFk5cURBWDlpMWRoWWV0SVRmaE9UbUpOTnAyQ05kV3FOc040enZXQmhiVnQwUDlSc2xnWTQ5WkVDQVY0VzZHYzVDeFFGaDg4cmhGbXc?oc=5",
+      "related_tickers": [
+        "000660"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 16,
+      "title": "SK hynix 주식, 오늘 급등하는 이유는? - Investing.com 한국어",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "한국",
+      "media": "Investing.com 한국어",
+      "date": "Mon, 27 Jul 2026 07:00:00 GMT",
+      "summary1": "SK hynix 주식, 오늘 급등하는 이유는? - Investing.com 한국어",
+      "summary2": "SK hynix 주식, 오늘 급등하는 이유는? Investing.com 한국어",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE82M200M0xsb09XREhpQUZhS0Q2d3VGRF9aeE5PaXo3azBhVE1aaGd1R1NKM2dWbWNnd2VCdTJsY1RZWVBvQzRmWkp6Mzd6NUVYWGJDZFFNellnblZRS0hZaEYycTVybEc5ckJvSzE0X2pEV08zdURZ?oc=5",
+      "related_tickers": [
+        "000660"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 17,
+      "title": "아이온큐(IONQ.N) 3분기 매출 서프라이즈..가이던스 재상향 By 알파경제 alphabiz - Investing.com 한국어",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "미국",
+      "media": "Investing.com 한국어",
+      "date": "Fri, 13 Nov 2026 07:41:00 GMT",
+      "summary1": "아이온큐(IONQ.N) 3분기 매출 서프라이즈..가이던스 재상향 By 알파경제 alphabiz - Investing.com 한국어",
+      "summary2": "아이온큐(IONQ.N) 3분기 매출 서프라이즈..가이던스 재상향 By 알파경제 alphabiz Investing.com 한국어",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9GY1kwZUt1dF8tM2ktSmdZNTVNeGdjOGNSVkNlSEsyVjBtTEJXVmc2cmlkTDJHa2dETXJiSmFucVFLVmo2eWJBSENwRFFTbmYxYmVERmRxMVBvWmlZX094V3ZONG01WXJmSWE1SHg5cDc?oc=5",
+      "related_tickers": [
+        "IONQ"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 18,
+      "title": "IONQ 주가, 양자 오류 수정 돌파구 마련에 7% 급등 - Investing.com 한국어",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "미국",
+      "media": "Investing.com 한국어",
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "summary1": "IONQ 주가, 양자 오류 수정 돌파구 마련에 7% 급등 - Investing.com 한국어",
+      "summary2": "IONQ 주가, 양자 오류 수정 돌파구 마련에 7% 급등 Investing.com 한국어",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9mcmM4NjNUcm54WVNpLWU1RkhoNUY4R1Y2QTBtbk1CcG91bFJfbjh5NDJfaWVfWFZRdEhaZUUwRlZTaVY4Y191dS1mUFpnSS1qalZKOFJHcUNrQ2pvaVZrNDFHMmcybDU5Z2phcmhxeU1qbk1xbmZN?oc=5",
+      "related_tickers": [
+        "IONQ"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 19,
+      "title": "IonQ, 9월 8일 투자자의 날 개최: IONQ가 $39.88을 돌파할 수 있을까? - Traders Union",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "미국",
+      "media": "Traders Union",
+      "date": "Mon, 31 Aug 2026 07:00:00 GMT",
+      "summary1": "IonQ, 9월 8일 투자자의 날 개최: IONQ가 $39.88을 돌파할 수 있을까? - Traders Union",
+      "summary2": "IonQ, 9월 8일 투자자의 날 개최: IONQ가 $39.88을 돌파할 수 있을까? Traders Union",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSll2aXdwR1VNMElLcm9ZdFU1cjRKVnVaZmJra2RGR2pJUGthTDd3aHN3QlBZOHlOOGJ6MlFoa3F2Q1ktT2VhYS1URVphVzI4WHF1a1dXVk9iS2x5Qy1vei1ORVprZkxxZHdwa2RxNjk3RzdzdnExUWJQYzVXV3locXMyRzVzT0d5SzZMdnE3X3k?oc=5",
+      "related_tickers": [
+        "IONQ"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 20,
+      "title": "IonQ 주가는 왜 오늘 급등했을까? - Investing.com 한국어",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "미국",
+      "media": "Investing.com 한국어",
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "summary1": "IonQ 주가는 왜 오늘 급등했을까? - Investing.com 한국어",
+      "summary2": "IonQ 주가는 왜 오늘 급등했을까? Investing.com 한국어",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB4bW1YNmtJbDRkeXNSOVRMRGRxN2NJcmFhOXZQSk90eHJQb1MyNzlTU3d6RUg5UmtpNmhmcWtJOVM3M204OG50LTRQRkpjQ1hjRFhqNXN3ckJGbmoxdGJCb1pmWl9hUUVBdWFiVWtfWS1GM3VmSVlV?oc=5",
+      "related_tickers": [
+        "IONQ"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 21,
+      "title": "[오늘의 이 종목] AI 데이터센터 수주 기대 '두산퓨얼셀' · 밸류체인 핵심 '한선엔지니어링' - 머니투데이 - 머니투데이",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "한국",
+      "media": "머니투데이",
+      "date": "Thu, 12 Nov 2026 02:49:51 GMT",
+      "summary1": "[오늘의 이 종목] AI 데이터센터 수주 기대 '두산퓨얼셀' · 밸류체인 핵심 '한선엔지니어링' - 머니투데이 - 머니투데이",
+      "summary2": "[오늘의 이 종목] AI 데이터센터 수주 기대 '두산퓨얼셀' · 밸류체인 핵심 '한선엔지니어링' - 머니투데이 머니투데이",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5qaGNoNFlieVRmYnFnd3N1cHo5VC1fZXNLaGxGdTFGTUdxbXR1U0VoMXNiY0JHSURlTm1VSF9LLVU1dUx5QXFOUENHb25ob1FQT05mSGtUcHBoaVl6aEVISnMweklvaU9N0gFuQVVfeXFMTlBCZU1vZ1FiWUJSVW41Vmhxc21SM3d3VE95Ymlra2RrSWw0NktZbTQxZG4wSHpCTkc1SlB3WkhyR3ZTakNqVXF0ekJ4bVNGdzU2X2V5d29BRVFxbDFabFAyUmV3Q09GNlByQnkwUUE?oc=5",
+      "related_tickers": [
+        "009900",
+        "067370",
+        "336260"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 22,
+      "title": "\"AI 전력 수요 잡는다\"…두산퓨얼셀, 9분기 연속 적자 딛고 북미 공략 지속 - 뉴시스",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "한국",
+      "media": "뉴시스",
+      "date": "Wed, 11 Nov 2026 02:40:19 GMT",
+      "summary1": "\"AI 전력 수요 잡는다\"…두산퓨얼셀, 9분기 연속 적자 딛고 북미 공략 지속 - 뉴시스",
+      "summary2": "\"AI 전력 수요 잡는다\"…두산퓨얼셀, 9분기 연속 적자 딛고 북미 공략 지속 뉴시스",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xM1pYSzVFczBLbTFRN2MtRU43ekNLMzgzLXFiZUYxWDk3UFhVUjhURlRRY05SQTFYcjBhNG55N1d0cHlZUzJiZ1RzZHFiNVUyb2NwcER5N3hSM2hLTUdacNIBeEFVX3lxTE40RHAzZGJjX24tLXdvYkNZdHA0TzdhRUF3RUdENUtaWnJ2SkZqMEdOTlpPWnlPY1BldlhiSFRNWEZEV2xBZ0tUX0pZM285MGZGMHVFTnc0T094SVpvb3lnQnNUc21UMmZYeU9BTU92VW51LXZuYXdvMA?oc=5",
+      "related_tickers": [
+        "009900",
+        "067370",
+        "336260"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 23,
+      "title": "[오늘의 이 종목] AI 데이터센터 수주 기대 '두산퓨얼셀' · 밸류체인 핵심 '한선엔지니어링' - MTN 머니투데이방송",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "한국",
+      "media": "MTN 머니투데이방송",
+      "date": "Thu, 12 Nov 2026 02:17:56 GMT",
+      "summary1": "[오늘의 이 종목] AI 데이터센터 수주 기대 '두산퓨얼셀' · 밸류체인 핵심 '한선엔지니어링' - MTN 머니투데이방송",
+      "summary2": "[오늘의 이 종목] AI 데이터센터 수주 기대 '두산퓨얼셀' · 밸류체인 핵심 '한선엔지니어링' MTN 머니투데이방송",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5MdGZ5eHRFNWNldFA3T1lxWWFlMkIxMnlNOExseFUyS3dNUTVsQXg4TnhiZC1JbTQzTGcteEN1UXF2TlhnOUVJT2h4ZlR6SG5jT2FLY19tb2hoUjYweDFr?oc=5",
+      "related_tickers": [
+        "009900",
+        "067370",
+        "336260"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 24,
+      "title": "두산퓨얼셀, 영구채 4천억으로 '급한 불' 껐지만 - 비즈워치",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "한국",
+      "media": "비즈워치",
+      "date": "Wed, 14 Oct 2026 07:00:00 GMT",
+      "summary1": "두산퓨얼셀, 영구채 4천억으로 '급한 불' 껐지만 - 비즈워치",
+      "summary2": "두산퓨얼셀, 영구채 4천억으로 '급한 불' 껐지만 비즈워치",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xSHdWdzktMFRnV3dJODZCazJkNVBHZXJ6SVZkaXN4SVU1MUxnVEYtQXZYZFlGUWNRMDZrM0RqbEU5YVg2bFVUYU5PS3dXYmRXVFJ1cGs0bWRMNjAxY1hGaU0xVHotamRaeWdObg?oc=5",
+      "related_tickers": [
+        "009900",
+        "067370",
+        "336260"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 25,
+      "title": "신규 상장 ETF는 꼭 짚고 가자! \"2025년 11월 - 브런치",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "글로벌",
+      "media": "브런치",
+      "date": "Mon, 22 Dec 2025 08:00:00 GMT",
+      "summary1": "신규 상장 ETF는 꼭 짚고 가자! \"2025년 11월 - 브런치",
+      "summary2": "신규 상장 ETF는 꼭 짚고 가자! \"2025년 11월 브런치",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5VZ2ljSTIzZkNJNXNkMVZKM2dGRDI1SlZtZm1LNWctYUNXbGJ2WVhUUGFweEJMUnFtVEVTNUdEblZ1c18tS1RRSFdMOVB2emw5QWNF?oc=5",
+      "related_tickers": [
+        "0131V0",
+        "493810"
+      ],
+      "scraped": false
+    }
+  ]
 }
