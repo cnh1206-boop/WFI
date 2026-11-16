@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16 21:26 KST",
+  "updated_at": "2026-11-17 07:44 KST",
   "indices": [
     {
       "name": "S&P 500",
@@ -7,11 +7,11 @@
       "region": "미국",
       "ticker": "^GSPC",
       "market": "INDEX",
-      "price": 7561.6699,
-      "change": -30.73,
-      "change_percent": -0.4047,
+      "price": 7416.5898,
+      "change": -145.0801,
+      "change_percent": -1.9186,
       "currency": "POINTS",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-16",
       "error": null
     },
     {
@@ -20,11 +20,11 @@
       "region": "미국",
       "ticker": "^IXIC",
       "market": "INDEX",
-      "price": 25136.2695,
-      "change": -229.8203,
-      "change_percent": -0.906,
+      "price": 24509.7578,
+      "change": -626.5117,
+      "change_percent": -2.4925,
       "currency": "POINTS",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-16",
       "error": null
     },
     {
@@ -34,10 +34,10 @@
       "currency": "PERCENT",
       "ticker": "^TNX",
       "market": "INDEX",
-      "price": 5.154,
-      "change": 0.051,
-      "change_percent": 0.9994,
-      "as_of": "2026-11-13",
+      "price": 5.121,
+      "change": -0.033,
+      "change_percent": -0.6403,
+      "as_of": "2026-11-16",
       "error": null
     },
     {
@@ -46,11 +46,11 @@
       "region": "미국",
       "ticker": "^SOX",
       "market": "INDEX",
-      "price": 10146.3203,
-      "change": -360.3496,
-      "change_percent": -3.4297,
+      "price": 9610.6523,
+      "change": -535.668,
+      "change_percent": -5.2794,
       "currency": "POINTS",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-16",
       "error": null
     },
     {
@@ -59,11 +59,11 @@
       "region": "미국",
       "ticker": "^DJI",
       "market": "INDEX",
-      "price": 52347.5508,
-      "change": 50.4609,
-      "change_percent": 0.0965,
+      "price": 51608.1719,
+      "change": -739.3789,
+      "change_percent": -1.4124,
       "currency": "POINTS",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-16",
       "error": null
     },
     {
@@ -72,11 +72,11 @@
       "region": "한국",
       "ticker": "^KS11",
       "market": "INDEX",
-      "price": 5100.5,
-      "change": -190.0298,
-      "change_percent": -3.5919,
+      "price": 5290.5298,
+      "change": -52.2002,
+      "change_percent": -0.977,
       "currency": "POINTS",
-      "as_of": "2026-11-16",
+      "as_of": "2026-11-13",
       "error": null
     },
     {
@@ -85,11 +85,11 @@
       "region": "한국",
       "ticker": "^KQ11",
       "market": "INDEX",
-      "price": 665.65,
-      "change": -34.0099,
-      "change_percent": -4.8609,
+      "price": 699.66,
+      "change": 3.1299,
+      "change_percent": 0.4494,
       "currency": "POINTS",
-      "as_of": "2026-11-16",
+      "as_of": "2026-11-13",
       "error": null
     },
     {
@@ -98,11 +98,11 @@
       "region": "일본",
       "ticker": "^N225",
       "market": "INDEX",
-      "price": 59662.0195,
-      "change": -1480.332,
-      "change_percent": -2.4211,
+      "price": 61142.3516,
+      "change": 322.9922,
+      "change_percent": 0.5311,
       "currency": "POINTS",
-      "as_of": "2026-11-16",
+      "as_of": "2026-11-13",
       "error": null
     },
     {
@@ -111,11 +111,11 @@
       "region": "홍콩",
       "ticker": "^HSI",
       "market": "INDEX",
-      "price": 23753.8398,
-      "change": 116.2402,
-      "change_percent": 0.4918,
+      "price": 23637.5996,
+      "change": -370.9512,
+      "change_percent": -1.5451,
       "currency": "POINTS",
-      "as_of": "2026-11-16",
+      "as_of": "2026-11-13",
       "error": null
     },
     {
@@ -124,9 +124,9 @@
       "region": "유럽",
       "ticker": "^STOXX50E",
       "market": "INDEX",
-      "price": 6371.5298,
-      "change": -15.3301,
-      "change_percent": -0.24,
+      "price": 6348.3501,
+      "change": -38.5098,
+      "change_percent": -0.603,
       "currency": "POINTS",
       "as_of": "2026-11-16",
       "error": null
@@ -174,11 +174,11 @@
       "ticker": "IONQ",
       "symbol": "IONQ",
       "market": "US",
-      "price": 28.88,
-      "change": -1.98,
-      "change_percent": -6.4161,
+      "price": 26.45,
+      "change": -2.43,
+      "change_percent": -8.4141,
       "currency": "USD",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-16",
       "error": null
     },
     {
