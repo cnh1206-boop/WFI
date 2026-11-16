@@ -1,7 +1,31 @@
 {
-  "updated_at": "2026-11-16 10:34 KST",
+  "updated_at": "2026-11-16 21:26 KST",
   "configured": true,
   "items": [
+    {
+      "company": "POSCO홀딩스",
+      "ticker": "005490",
+      "title": "특수관계인에대한주식의처분",
+      "date": "20261116",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001551",
+      "receipt_no": "20261116001551"
+    },
+    {
+      "company": "SK하이닉스",
+      "ticker": "000660",
+      "title": "분기보고서 (2026.09)",
+      "date": "20261116",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001715",
+      "receipt_no": "20261116001715"
+    },
+    {
+      "company": "선바이오",
+      "ticker": "067370",
+      "title": "분기보고서 (2026.09)",
+      "date": "20261116",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000687",
+      "receipt_no": "20261116000687"
+    },
     {
       "company": "POSCO홀딩스",
       "ticker": "005490",
