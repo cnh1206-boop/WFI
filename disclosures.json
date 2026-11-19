@@ -1,7 +1,15 @@
 {
-  "updated_at": "2026-11-19 06:06 KST",
+  "updated_at": "2026-11-19 11:56 KST",
   "configured": true,
   "items": [
+    {
+      "company": "POSCO홀딩스",
+      "ticker": "005490",
+      "title": "풍문또는보도에대한해명(미확정)(자회사의 주요경영사항)              ",
+      "date": "20261119",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119800164",
+      "receipt_no": "20261119800164"
+    },
     {
       "company": "POSCO홀딩스",
       "ticker": "005490",
