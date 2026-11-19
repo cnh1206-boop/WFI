@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19 21:30 KST",
+  "updated_at": "2026-11-20 06:10 KST",
   "configured": true,
   "items": [
     {
@@ -121,14 +121,6 @@
       "date": "20261111",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000269",
       "receipt_no": "20261111000269"
-    },
-    {
-      "company": "POSCO홀딩스",
-      "ticker": "005490",
-      "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "date": "20261105",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000168",
-      "receipt_no": "20261105000168"
     }
   ]
 }
