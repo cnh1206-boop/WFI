@@ -1,7 +1,15 @@
 {
-  "updated_at": "2026-11-20 11:50 KST",
+  "updated_at": "2026-11-20 21:30 KST",
   "configured": true,
   "items": [
+    {
+      "company": "SK하이닉스",
+      "ticker": "000660",
+      "title": "[기재정정]타법인주식및출자증권취득결정              ",
+      "date": "20261120",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120800721",
+      "receipt_no": "20261120800721"
+    },
     {
       "company": "POSCO홀딩스",
       "ticker": "005490",
