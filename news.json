@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21 21:06 KST",
+  "updated_at": "2026-11-22 04:55 KST",
   "articles": [
     {
       "id": 1,
@@ -185,17 +185,17 @@
     },
     {
       "id": 12,
-      "title": "철강·리튬 사업 기대감↑… 증권가 \"포스코홀딩스 75% 상승 여력\" - 한국경제",
+      "title": "POSCO홀딩스 주가, 오늘 상승한 이유는? - Investing.com 한국어",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
       "region": "한국",
-      "media": "한국경제",
-      "date": "Tue, 07 Jul 2026 07:00:00 GMT",
-      "summary1": "철강·리튬 사업 기대감↑… 증권가 \"포스코홀딩스 75% 상승 여력\" - 한국경제",
-      "summary2": "철강·리튬 사업 기대감↑… 증권가 \"포스코홀딩스 75% 상승 여력\" 한국경제",
+      "media": "Investing.com 한국어",
+      "date": "Mon, 02 Nov 2026 08:00:00 GMT",
+      "summary1": "POSCO홀딩스 주가, 오늘 상승한 이유는? - Investing.com 한국어",
+      "summary2": "POSCO홀딩스 주가, 오늘 상승한 이유는? Investing.com 한국어",
       "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
       "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tMjMwVUpJSlNaQnp4c1NxMjBQSFJHQWV3RlJMbGtXd2pGMHhRNHBpRmhtUEtDaGhvNUs0UU0weG1MenlWY2JiY0hkOVNmTDBWM1ZheVJwN1Aydw?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5WQkdabVJVVkltNmV3YWQ4T0FIWWpIXzVaS1FZODZhV2tiZ1M3RWpOc3RwS3R6ZU1BODVwa2Rud2xlWEVzNmZiRHVjeWdIZWxIZjNoeE9DQWJjMkI4WUJYVVNab1RlN1BYbWhOUVc0cTliSkJTYTRz?oc=5",
       "related_tickers": [
         "005490"
       ],
@@ -239,24 +239,6 @@
     },
     {
       "id": 15,
-      "title": "AI 관련 주식 강세, SK하이닉스 11% 상승, 마이크론과 샌디스크 4% 상승 - CoinDesk",
-      "category": "보유종목 뉴스",
-      "keyword": "보유종목",
-      "region": "한국",
-      "media": "CoinDesk",
-      "date": "Wed, 28 Oct 2026 07:00:00 GMT",
-      "summary1": "AI 관련 주식 강세, SK하이닉스 11% 상승, 마이크론과 샌디스크 4% 상승 - CoinDesk",
-      "summary2": "AI 관련 주식 강세, SK하이닉스 11% 상승, 마이크론과 샌디스크 4% 상승 CoinDesk",
-      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
-      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbmc4d2RSU21kMXV6U2hiV0R5ei1Cd0JxSl9pVm5iSkY4S1dLMDVPeGRTVUdkcFVuZkJqOEV0UDBZMVZhRmw2ei1RMnBoTkpUd0M3ZUpZOEpFX1hOMFZiV3RFOG8tdzd4ajA5RFpGa0VSeTUydnNvOHZlYWQzbllYbG9ZUFZvMTg5UVVWbWxabmttM3hmM3dGNEFwTEJybVFpLTRYNlRSUQ?oc=5",
-      "related_tickers": [
-        "000660"
-      ],
-      "scraped": false
-    },
-    {
-      "id": 16,
       "title": "‘40조원 흥행’ SK하이닉스, 주가 전망은 185만 vs 420만원 - 중앙일보",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
@@ -268,6 +250,24 @@
       "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
       "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
       "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mNTRsSW5wMjdoRVZBUkFnY0I0TG5BUTZJeHBLOEJ4UGtGUVU1WDhLQkR1cWpKcW94b21iNXZjdDBISkFDRU9taEJDQ3Nnc0ZtcjdNTF9R?oc=5",
+      "related_tickers": [
+        "000660"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 16,
+      "title": "AI 관련 주식 강세, SK하이닉스 11% 상승, 마이크론과 샌디스크 4% 상승 - CoinDesk",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "한국",
+      "media": "CoinDesk",
+      "date": "Wed, 28 Oct 2026 07:00:00 GMT",
+      "summary1": "AI 관련 주식 강세, SK하이닉스 11% 상승, 마이크론과 샌디스크 4% 상승 - CoinDesk",
+      "summary2": "AI 관련 주식 강세, SK하이닉스 11% 상승, 마이크론과 샌디스크 4% 상승 CoinDesk",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbmc4d2RSU21kMXV6U2hiV0R5ei1Cd0JxSl9pVm5iSkY4S1dLMDVPeGRTVUdkcFVuZkJqOEV0UDBZMVZhRmw2ei1RMnBoTkpUd0M3ZUpZOEpFX1hOMFZiV3RFOG8tdzd4ajA5RFpGa0VSeTUydnNvOHZlYWQzbllYbG9ZUFZvMTg5UVVWbWxabmttM3hmM3dGNEFwTEJybVFpLTRYNlRSUQ?oc=5",
       "related_tickers": [
         "000660"
       ],
@@ -311,24 +311,6 @@
     },
     {
       "id": 19,
-      "title": "IonQ, Elisity 최대 13억 달러 주식 거래로 인수 - Investing.com 한국어",
-      "category": "보유종목 뉴스",
-      "keyword": "보유종목",
-      "region": "미국",
-      "media": "Investing.com 한국어",
-      "date": "Mon, 12 Oct 2026 07:00:00 GMT",
-      "summary1": "IonQ, Elisity 최대 13억 달러 주식 거래로 인수 - Investing.com 한국어",
-      "summary2": "IonQ, Elisity 최대 13억 달러 주식 거래로 인수 Investing.com 한국어",
-      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
-      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBFOTNGQUpwZFUwbmVRZDM3NTlKSDl2SVUydTdXemY5V08yR1I1YUJXTkdHZmtCcWJ5WnhYUjdrYjZUUGdfZ2JVdGNzdHhDc2dpNTV3ZU56cTBmdFZ3VkJ5WWlTdzdYTm9fMVBMbEFBRmE1VFVHczlF?oc=5",
-      "related_tickers": [
-        "IONQ"
-      ],
-      "scraped": false
-    },
-    {
-      "id": 20,
       "title": "IonQ 주가는 왜 오늘 급등했을까? - Investing.com 한국어",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
@@ -346,25 +328,25 @@
       "scraped": false
     },
     {
-      "id": 21,
-      "title": "수익률 상위권 휩쓴 2차전지 ETF 급부상…고유가·ESS 수혜주 - 연합뉴스",
+      "id": 20,
+      "title": "IonQ, Elisity 최대 13억 달러 주식 거래로 인수 - Investing.com 한국어",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
-      "region": "한국",
-      "media": "연합뉴스",
-      "date": "Tue, 21 Apr 2026 07:00:00 GMT",
-      "summary1": "수익률 상위권 휩쓴 2차전지 ETF 급부상…고유가·ESS 수혜주 - 연합뉴스",
-      "summary2": "수익률 상위권 휩쓴 2차전지 ETF 급부상…고유가·ESS 수혜주 연합뉴스",
+      "region": "미국",
+      "media": "Investing.com 한국어",
+      "date": "Mon, 12 Oct 2026 07:00:00 GMT",
+      "summary1": "IonQ, Elisity 최대 13억 달러 주식 거래로 인수 - Investing.com 한국어",
+      "summary2": "IonQ, Elisity 최대 13억 달러 주식 거래로 인수 Investing.com 한국어",
       "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
       "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9oWmdoQmh6WUN0S2dwWXdOTGVCbVlyTjNWSE5QVkhoeTBabHoxNmdldkkzMTREeTNmalNBWHFlWThLWmRIQXFCaUYzNVhhRTQ4dTNXNTFfckNaMG_SAWBBVV95cUxNVm9QWnhiTm80SEh6bGd3SlZyZFZBazVQOFhOT3owY19aMEdhWXY2NzJaZzJ0YVlyVUo1RG91bVNYWWItRURrWlZlZUU0NklsVXdOM1NULTEzOHFGQkFkUmw?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBFOTNGQUpwZFUwbmVRZDM3NTlKSDl2SVUydTdXemY5V08yR1I1YUJXTkdHZmtCcWJ5WnhYUjdrYjZUUGdfZ2JVdGNzdHhDc2dpNTV3ZU56cTBmdFZ3VkJ5WWlTdzdYTm9fMVBMbEFBRmE1VFVHczlF?oc=5",
       "related_tickers": [
-        "364980"
+        "IONQ"
       ],
       "scraped": false
     },
     {
-      "id": 22,
+      "id": 21,
       "title": "[월간 ETF] 8月, 반도체 쏠림 완화되나 ‘TIGER 2차전지TOP10레버리지’ 월간 수익률 톱...화장품 ETF도 강세 보여 - 더밸류뉴스",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
@@ -382,18 +364,36 @@
       "scraped": false
     },
     {
-      "id": 23,
-      "title": "[이주의 ETF] 미래에셋자산운용 'TIGER 2차전지 TOP10' 10대% 상승, 2차전지 관련 ETF 강세 - 비즈니스포스트",
+      "id": 22,
+      "title": "수익률 상위권 휩쓴 2차전지 ETF 급부상…고유가·ESS 수혜주 - 연합뉴스",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
       "region": "한국",
-      "media": "비즈니스포스트",
-      "date": "Fri, 04 Jul 2025 07:00:00 GMT",
-      "summary1": "[이주의 ETF] 미래에셋자산운용 'TIGER 2차전지 TOP10' 10대% 상승, 2차전지 관련 ETF 강세 - 비즈니스포스트",
-      "summary2": "[이주의 ETF] 미래에셋자산운용 'TIGER 2차전지 TOP10' 10대% 상승, 2차전지 관련 ETF 강세 비즈니스포스트",
+      "media": "연합뉴스",
+      "date": "Tue, 21 Apr 2026 07:00:00 GMT",
+      "summary1": "수익률 상위권 휩쓴 2차전지 ETF 급부상…고유가·ESS 수혜주 - 연합뉴스",
+      "summary2": "수익률 상위권 휩쓴 2차전지 ETF 급부상…고유가·ESS 수혜주 연합뉴스",
       "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
       "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9VajZiUXh4NjVrWlFGRDhLRF9mSXZGRGlBZEdhRFlaNUtYajZ5VDl4TkxTaUJfODl6SFRfRGJfLWE3VERMUXZXRjdlMkJDYmxtdXg4b3ZILVRyYXFSaG9aSG9yOHQ0YmJ0SVViWGE4VmpMVE0?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9oWmdoQmh6WUN0S2dwWXdOTGVCbVlyTjNWSE5QVkhoeTBabHoxNmdldkkzMTREeTNmalNBWHFlWThLWmRIQXFCaUYzNVhhRTQ4dTNXNTFfckNaMG_SAWBBVV95cUxNVm9QWnhiTm80SEh6bGd3SlZyZFZBazVQOFhOT3owY19aMEdhWXY2NzJaZzJ0YVlyVUo1RG91bVNYWWItRURrWlZlZUU0NklsVXdOM1NULTEzOHFGQkFkUmw?oc=5",
+      "related_tickers": [
+        "364980"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 23,
+      "title": "배터리 ETF 고공행진…미국 우주·AI도 강세 - 한국경제",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "한국",
+      "media": "한국경제",
+      "date": "Sun, 11 Oct 2026 07:00:00 GMT",
+      "summary1": "배터리 ETF 고공행진…미국 우주·AI도 강세 - 한국경제",
+      "summary2": "배터리 ETF 고공행진…미국 우주·AI도 강세 한국경제",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5udXgyeGxJVkRzRWJMMTZzZWRSLV9VTTZ1UXpTTVBZMHdpU1hPeS1TMzZDRVV2cnVyUHNGRV9CaWlubmJlWHYwMTQ1QlFVRVJCVWVla1VPTnFuZw?oc=5",
       "related_tickers": [
         "364980"
       ],
