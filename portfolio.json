@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21 11:58 KST",
+  "updated_at": "2026-11-21 21:06 KST",
   "indices": [
     {
       "name": "S&P 500",
@@ -20,8 +20,8 @@
       "region": "미국",
       "ticker": "^IXIC",
       "market": "INDEX",
-      "price": 22617.7324,
-      "change": -1261.4668,
+      "price": 22617.7305,
+      "change": -1261.4688,
       "change_percent": -5.2827,
       "currency": "POINTS",
       "as_of": "2026-11-20",
@@ -46,8 +46,8 @@
       "region": "미국",
       "ticker": "^SOX",
       "market": "INDEX",
-      "price": 8408.5908,
-      "change": -1011.1289,
+      "price": 8408.5898,
+      "change": -1011.1299,
       "change_percent": -10.7342,
       "currency": "POINTS",
       "as_of": "2026-11-20",
