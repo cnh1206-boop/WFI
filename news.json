@@ -1,8 +1,24 @@
 {
-  "updated_at": "2026-11-22 10:54 KST",
+  "updated_at": "2026-11-22 21:17 KST",
   "articles": [
     {
       "id": 1,
+      "title": "'5천피' 무너지고 美증시 급락…'AI 투매' 추가 충격오나 - 연합뉴스",
+      "category": "세계증시·경제",
+      "keyword": "세계시장",
+      "region": "글로벌",
+      "media": "연합뉴스",
+      "date": "Sat, 21 Nov 2026 21:00:06 GMT",
+      "summary1": "'5천피' 무너지고 美증시 급락…'AI 투매' 추가 충격오나 - 연합뉴스",
+      "summary2": "'5천피' 무너지고 美증시 급락…'AI 투매' 추가 충격오나 연합뉴스",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5sSVlQR3NzWjNIdEpnZF9KVVNnOEFYVnM0cVppaXZfSjZXSHl6UlNYRnB1UUFtYU5PV0xUQmtDSWgtMjRvdmdWUzA2dzl5eFk1M3JxUS1kWHJsblnSAWBBVV95cUxNV1puVTNuemZya3lBTnF3ci1jZ1pxSW0yVXp6NTBGQlRXZmtjZGxFczgta21UV2hpVWVSVGV6Mzd5cTdoVk56VEZ5RmNPblM1eTV2OGJ1X3NQREZDUU5LTWg?oc=5",
+      "related_tickers": [],
+      "scraped": false
+    },
+    {
+      "id": 2,
       "title": "[오늘의 글로벌마켓] 뉴욕증시, AI 우려에 3대지수 폭락...나스닥 5.3%↓ - 오피니언뉴스",
       "category": "세계증시·경제",
       "keyword": "세계시장",
@@ -18,71 +34,39 @@
       "scraped": false
     },
     {
-      "id": 2,
-      "title": "ASM International NV 주가, 오늘 급등한 이유는? - Investing.com 한국어",
-      "category": "세계증시·경제",
-      "keyword": "세계시장",
-      "region": "글로벌",
-      "media": "Investing.com 한국어",
-      "date": "Thu, 19 Nov 2026 11:44:00 GMT",
-      "summary1": "ASM International NV 주가, 오늘 급등한 이유는? - Investing.com 한국어",
-      "summary2": "ASM International NV 주가, 오늘 급등한 이유는? Investing.com 한국어",
-      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
-      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBKWVRacFgwQ08zQXpKMDVxQWhNWmRhNGJHaS1CM1pGemJ2UElQLXBaLXNLVG5Ub1F0MzNZNUszLUlYNk9GSlNXTjBPZjJmUVE1Ym5SUWZYOFoxZmFFZmVKQW43OXJlcFhIb3I2WVc4cEdGRzV5WGlz?oc=5",
-      "related_tickers": [],
-      "scraped": false
-    },
-    {
       "id": 3,
-      "title": "괴물 신인도 못막는 지옥의 하락장 [11/20 G모닝]｜Global Money Club - 중앙일보",
+      "title": "미국 주식 시장 데이터의 완전한 조망 - Nasdaq",
       "category": "세계증시·경제",
       "keyword": "세계시장",
       "region": "글로벌",
-      "media": "중앙일보",
-      "date": "Thu, 19 Nov 2026 23:14:02 GMT",
-      "summary1": "괴물 신인도 못막는 지옥의 하락장 [11/20 G모닝]｜Global Money Club - 중앙일보",
-      "summary2": "괴물 신인도 못막는 지옥의 하락장 [11/20 G모닝]｜Global Money Club 중앙일보",
+      "media": "Nasdaq",
+      "date": "Fri, 18 Sep 2026 19:16:32 GMT",
+      "summary1": "미국 주식 시장 데이터의 완전한 조망 - Nasdaq",
+      "summary2": "미국 주식 시장 데이터의 완전한 조망 Nasdaq",
       "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
       "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0zdkhHeDhpNWRRdDFRaUZyRjZJWExWZWppWnZJSVpZcWR0Z3A2dDF1dVVNc3RUMU5jeHJjUEREZS13Q3FoeVpUMmZHTHc5WVBQTFNucnBfRUR6WWM?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUGRDdXp4Z2pFVUVFR29QRm9mcnNoVVV0VF9kQm92WlhWVnVJd2R1NzdDaHFkV1hFaXFGOE1rdFZtMVhDV1Zjdk8xcEJ3MG5KS0wtVURTcDUwM21WSUgxeHY1a2NtWTlERXFVak5CblFoYk1jOXhxQjdBTmU1dHk2Yw?oc=5",
       "related_tickers": [],
       "scraped": false
     },
     {
       "id": 4,
-      "title": "AI주 투매에 나스닥 5.28% 폭락…S&P500·다우 조정장 진입 - 우리경제신문",
+      "title": "New York stocks fall across the board on AI investment worries … Nasdaq down 2.15%↓ - 경향신문",
       "category": "세계증시·경제",
       "keyword": "세계시장",
       "region": "글로벌",
-      "media": "우리경제신문",
-      "date": "Fri, 20 Nov 2026 23:49:16 GMT",
-      "summary1": "AI주 투매에 나스닥 5.28% 폭락…S&P500·다우 조정장 진입 - 우리경제신문",
-      "summary2": "AI주 투매에 나스닥 5.28% 폭락…S&P500·다우 조정장 진입 우리경제신문",
+      "media": "경향신문",
+      "date": "Sat, 17 Oct 2026 07:00:00 GMT",
+      "summary1": "New York stocks fall across the board on AI investment worries … Nasdaq down 2.15%↓ - 경향신문",
+      "summary2": "New York stocks fall across the board on AI investment worries … Nasdaq down 2.15%↓ 경향신문",
       "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
       "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5vczFBajdpM1ppSW15d3ZteTFlNnNJRDBESEhrdWZSaXRtS0JCZTBsMGxDeWVFcUN5QWt0Rk1iU28tbFdJeXZVYS1aaDdYdS0ySEkxTHcwd3M?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE45aHhlSHRfWGxUVGNjVjRlMGM2MDdTVUpMMms5MW10WGROWlBDa2l2S3BPYW5USUFjdkVJNjJXYk53X0YyczYwWnhkQm5BMUdRM1QzMEJNX0JXU3dZa0E?oc=5",
       "related_tickers": [],
       "scraped": false
     },
     {
       "id": 5,
-      "title": "Lee Hyung-il “Mid-3% growth possible this year… Korea·U.S. currency swap is necessary” - 경향신문",
-      "category": "세계증시·경제",
-      "keyword": "세계시장",
-      "region": "글로벌",
-      "media": "경향신문",
-      "date": "Mon, 19 Oct 2026 07:00:00 GMT",
-      "summary1": "Lee Hyung-il “Mid-3% growth possible this year… Korea·U.S. currency swap is necessary” - 경향신문",
-      "summary2": "Lee Hyung-il “Mid-3% growth possible this year… Korea·U.S. currency swap is necessary” 경향신문",
-      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
-      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB5S1A4dHFiUUpVeURSQWxKX1ZBWk9UYTE1SmwzSGpaaTU0U0FMNFhBWmJROVM5eXBvTzY4Ukg5T1EzaUppeFFtemxkTklkeDJhNUFENk5YX01UTENoVnc?oc=5",
-      "related_tickers": [],
-      "scraped": false
-    },
-    {
-      "id": 6,
       "title": "The high-rate era is already here. Are your finances ready? - Korea JoongAng Daily",
       "category": "세계증시·경제",
       "keyword": "세계시장",
@@ -98,7 +82,7 @@
       "scraped": false
     },
     {
-      "id": 7,
+      "id": 6,
       "title": "KOSDAQ Loses Ground, Plunging from 4th to 38th in Global Market Returns - IT조선",
       "category": "세계증시·경제",
       "keyword": "세계시장",
@@ -114,7 +98,7 @@
       "scraped": false
     },
     {
-      "id": 8,
+      "id": 7,
       "title": "글로벌 인플레이션의 국내파급효과와 경기안정화 정책 분석 | 연구보고서 | 보고서 | 발간물 - 대외경제정책연구원",
       "category": "세계증시·경제",
       "keyword": "세계시장",
@@ -130,7 +114,7 @@
       "scraped": false
     },
     {
-      "id": 9,
+      "id": 8,
       "title": "POSCO홀딩스 주가, 오늘 왜 급락하나? - Investing.com 한국어",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
@@ -148,7 +132,7 @@
       "scraped": false
     },
     {
-      "id": 10,
+      "id": 9,
       "title": "포스코홀딩스, 리튬·지분매각 선언에 증권가 “주가 재평가” - 매일경제",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
@@ -166,7 +150,7 @@
       "scraped": false
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "[헬로스톡] 10/1 주목할 종목 : 삼성전자·POSCO홀딩스·한국항공우주·현대모비스 - 헬로티",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
@@ -184,7 +168,7 @@
       "scraped": false
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "철강·리튬 사업 기대감↑… 증권가 \"포스코홀딩스 75% 상승 여력\" - 한국경제",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
@@ -202,7 +186,7 @@
       "scraped": false
     },
     {
-      "id": 13,
+      "id": 12,
       "title": "SK hynix Inc ADR, 오늘 주가 하락한 이유는? - Investing.com 한국어",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
@@ -220,7 +204,7 @@
       "scraped": false
     },
     {
-      "id": 14,
+      "id": 13,
       "title": "가격 빠진 SK하이닉스 담은 초고수들…삼성전자 우선주 사고 보통주 팔았다 [주식 초고수는 지금] - 매일경제",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
@@ -238,7 +222,7 @@
       "scraped": false
     },
     {
-      "id": 15,
+      "id": 14,
       "title": "‘40조원 흥행’ SK하이닉스, 주가 전망은 185만 vs 420만원 - 중앙일보",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
@@ -256,7 +240,7 @@
       "scraped": false
     },
     {
-      "id": 16,
+      "id": 15,
       "title": "AI 관련 주식 강세, SK하이닉스 11% 상승, 마이크론과 샌디스크 4% 상승 - CoinDesk",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
@@ -274,7 +258,7 @@
       "scraped": false
     },
     {
-      "id": 17,
+      "id": 16,
       "title": "IonQ, DARPA 양자 벤치마킹 이니셔티브 3단계 참여: IONQ, $23.19 지지선을 지킬까? - Traders Union",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
@@ -292,7 +276,7 @@
       "scraped": false
     },
     {
-      "id": 18,
+      "id": 17,
       "title": "IONQ 주가, 양자 오류 수정 돌파구 마련에 7% 급등 - Investing.com 한국어",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
@@ -310,7 +294,7 @@
       "scraped": false
     },
     {
-      "id": 19,
+      "id": 18,
       "title": "IonQ, Elisity 최대 13억 달러 주식 거래로 인수 - Investing.com 한국어",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
@@ -328,7 +312,7 @@
       "scraped": false
     },
     {
-      "id": 20,
+      "id": 19,
       "title": "IonQ 주가는 왜 오늘 급등했을까? - Investing.com 한국어",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
@@ -342,6 +326,24 @@
       "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB4bW1YNmtJbDRkeXNSOVRMRGRxN2NJcmFhOXZQSk90eHJQb1MyNzlTU3d6RUg5UmtpNmhmcWtJOVM3M204OG50LTRQRkpjQ1hjRFhqNXN3ckJGbmoxdGJCb1pmWl9hUUVBdWFiVWtfWS1GM3VmSVlV?oc=5",
       "related_tickers": [
         "IONQ"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 20,
+      "title": "[월간 ETF] 8月, 반도체 쏠림 완화되나 ‘TIGER 2차전지TOP10레버리지’ 월간 수익률 톱...화장품 ETF도 강세 보여 - 더밸류뉴스",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "한국",
+      "media": "더밸류뉴스",
+      "date": "Mon, 07 Sep 2026 07:00:00 GMT",
+      "summary1": "[월간 ETF] 8月, 반도체 쏠림 완화되나 ‘TIGER 2차전지TOP10레버리지’ 월간 수익률 톱...화장품 ETF도 강세 보여 - 더밸류뉴스",
+      "summary2": "[월간 ETF] 8月, 반도체 쏠림 완화되나 ‘TIGER 2차전지TOP10레버리지’ 월간 수익률 톱...화장품 ETF도 강세 보여 더밸류뉴스",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9QOXpIQ2R4TGp5S29UM24wc3VBWW9WQlhVb2RIa2pnR3g4bE5ZTE1fRWxYUTBuVTc4OWNjLXFvLTVqUzROMkxDSmFDQ3kzSUJ2RnhicA?oc=5",
+      "related_tickers": [
+        "364980"
       ],
       "scraped": false
     },
@@ -365,17 +367,17 @@
     },
     {
       "id": 22,
-      "title": "[월간 ETF] 8月, 반도체 쏠림 완화되나 ‘TIGER 2차전지TOP10레버리지’ 월간 수익률 톱...화장품 ETF도 강세 보여 - 더밸류뉴스",
+      "title": "배터리 ETF 고공행진…미국 우주·AI도 강세 - 한국경제",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
       "region": "한국",
-      "media": "더밸류뉴스",
-      "date": "Mon, 07 Sep 2026 07:00:00 GMT",
-      "summary1": "[월간 ETF] 8月, 반도체 쏠림 완화되나 ‘TIGER 2차전지TOP10레버리지’ 월간 수익률 톱...화장품 ETF도 강세 보여 - 더밸류뉴스",
-      "summary2": "[월간 ETF] 8月, 반도체 쏠림 완화되나 ‘TIGER 2차전지TOP10레버리지’ 월간 수익률 톱...화장품 ETF도 강세 보여 더밸류뉴스",
+      "media": "한국경제",
+      "date": "Sun, 11 Oct 2026 07:00:00 GMT",
+      "summary1": "배터리 ETF 고공행진…미국 우주·AI도 강세 - 한국경제",
+      "summary2": "배터리 ETF 고공행진…미국 우주·AI도 강세 한국경제",
       "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
       "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9QOXpIQ2R4TGp5S29UM24wc3VBWW9WQlhVb2RIa2pnR3g4bE5ZTE1fRWxYUTBuVTc4OWNjLXFvLTVqUzROMkxDSmFDQ3kzSUJ2RnhicA?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5udXgyeGxJVkRzRWJMMTZzZWRSLV9VTTZ1UXpTTVBZMHdpU1hPeS1TMzZDRVV2cnVyUHNGRV9CaWlubmJlWHYwMTQ1QlFVRVJCVWVla1VPTnFuZw?oc=5",
       "related_tickers": [
         "364980"
       ],
@@ -383,24 +385,6 @@
     },
     {
       "id": 23,
-      "title": "[이주의 ETF] 미래에셋자산운용 'TIGER 2차전지 TOP10' 10대% 상승, 2차전지 관련 ETF 강세 - 비즈니스포스트",
-      "category": "보유종목 뉴스",
-      "keyword": "보유종목",
-      "region": "한국",
-      "media": "비즈니스포스트",
-      "date": "Fri, 04 Jul 2025 07:00:00 GMT",
-      "summary1": "[이주의 ETF] 미래에셋자산운용 'TIGER 2차전지 TOP10' 10대% 상승, 2차전지 관련 ETF 강세 - 비즈니스포스트",
-      "summary2": "[이주의 ETF] 미래에셋자산운용 'TIGER 2차전지 TOP10' 10대% 상승, 2차전지 관련 ETF 강세 비즈니스포스트",
-      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
-      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9VajZiUXh4NjVrWlFGRDhLRF9mSXZGRGlBZEdhRFlaNUtYajZ5VDl4TkxTaUJfODl6SFRfRGJfLWE3VERMUXZXRjdlMkJDYmxtdXg4b3ZILVRyYXFSaG9aSG9yOHQ0YmJ0SVViWGE4VmpMVE0?oc=5",
-      "related_tickers": [
-        "364980"
-      ],
-      "scraped": false
-    },
-    {
-      "id": 24,
       "title": "잠자던 2차전지, 로봇이 깨웠다…전고체·2차전지 ETF 상위권 장악 - 마켓인",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
@@ -414,6 +398,26 @@
       "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9mTTg1THgxQ2dFX1VRcWZJN3N0YmprdTYwUTgxb1BGaHh1N0oyUDItTXZKYkczck0zU0UzVnhwdFBaZktiSmQtNzFWbUstMERrU0ljamdmVVl3cFlHRWl4anpEdDRiQ2FCbFR5YlFaZWhGU0E?oc=5",
       "related_tickers": [
         "364980"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 24,
+      "title": "두산퓨얼셀, 적자보다 무거운 현금흐름 - DealSite경제TV",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "한국",
+      "media": "DealSite경제TV",
+      "date": "Fri, 20 Nov 2026 23:00:26 GMT",
+      "summary1": "두산퓨얼셀, 적자보다 무거운 현금흐름 - DealSite경제TV",
+      "summary2": "두산퓨얼셀, 적자보다 무거운 현금흐름 DealSite경제TV",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB4bktQdUwwUDdTWEt4MWM0SDB0LS0wYjh2dVJ1TE1GU3ZoSEY2a0x5V0VJM3hUZU90Vm45NzNaSFdKLVdvZVpfTzJoT3VSYlZXeGZlaTN3?oc=5",
+      "related_tickers": [
+        "009900",
+        "067370",
+        "336260"
       ],
       "scraped": false
     },
@@ -439,26 +443,6 @@
     },
     {
       "id": 26,
-      "title": "두산퓨얼셀·대덕전자, 코스피200 신규 편입…내달 11일 반영 - 뉴스핌",
-      "category": "보유종목 뉴스",
-      "keyword": "보유종목",
-      "region": "한국",
-      "media": "뉴스핌",
-      "date": "Wed, 18 Nov 2026 07:20:00 GMT",
-      "summary1": "두산퓨얼셀·대덕전자, 코스피200 신규 편입…내달 11일 반영 - 뉴스핌",
-      "summary2": "두산퓨얼셀·대덕전자, 코스피200 신규 편입…내달 11일 반영 뉴스핌",
-      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
-      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zbmR4VkFqRV9pRVNrNGxpNE1LZHVLWmIzRUtWNnVuZDBtb1J2aUlyaG94aUFxemJpX09lMkVtVzNsXzJIQVZvOFlwNi12SkFuanRwVTVKekxYN0dD?oc=5",
-      "related_tickers": [
-        "009900",
-        "067370",
-        "336260"
-      ],
-      "scraped": false
-    },
-    {
-      "id": 27,
       "title": "두산퓨얼셀·대덕전자·효성 코스피200 편입…내달 11일 반영 - 매일일보",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
@@ -478,18 +462,18 @@
       "scraped": false
     },
     {
-      "id": 28,
-      "title": "두산퓨얼셀, 적자보다 무거운 현금흐름 - DealSite경제TV",
+      "id": 27,
+      "title": "두산퓨얼셀·대덕전자, 코스피200 신규 편입…내달 11일 반영 - 뉴스핌",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
       "region": "한국",
-      "media": "DealSite경제TV",
-      "date": "Fri, 20 Nov 2026 23:00:26 GMT",
-      "summary1": "두산퓨얼셀, 적자보다 무거운 현금흐름 - DealSite경제TV",
-      "summary2": "두산퓨얼셀, 적자보다 무거운 현금흐름 DealSite경제TV",
+      "media": "뉴스핌",
+      "date": "Wed, 18 Nov 2026 07:20:00 GMT",
+      "summary1": "두산퓨얼셀·대덕전자, 코스피200 신규 편입…내달 11일 반영 - 뉴스핌",
+      "summary2": "두산퓨얼셀·대덕전자, 코스피200 신규 편입…내달 11일 반영 뉴스핌",
       "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
       "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBSeTVfWHptMW5sM29DZlRtVTlTdlhmb3FrQUFaVTBuTjI4cXRSOGJtQ2h5Wm1GeFFOUXFPRzBaLUR4TENhRWVlempJSlVYOEtXNnlSMmJDUQ?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zbmR4VkFqRV9pRVNrNGxpNE1LZHVLWmIzRUtWNnVuZDBtb1J2aUlyaG94aUFxemJpX09lMkVtVzNsXzJIQVZvOFlwNi12SkFuanRwVTVKekxYN0dD?oc=5",
       "related_tickers": [
         "009900",
         "067370",
@@ -498,7 +482,7 @@
       "scraped": false
     },
     {
-      "id": 29,
+      "id": 28,
       "title": "신규 상장 ETF는 꼭 짚고 가자! \"2025년 11월 - 브런치",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
