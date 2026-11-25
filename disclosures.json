@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25 18:32 KST",
+  "updated_at": "2026-11-26 04:45 KST",
   "configured": true,
   "items": [
     {
@@ -129,38 +129,6 @@
       "date": "20261112",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800990",
       "receipt_no": "20261112800990"
-    },
-    {
-      "company": "두산퓨얼셀",
-      "ticker": "336260",
-      "title": "[기재정정]주요사항보고서(자본으로인정되는채무증권발행결정)",
-      "date": "20261111",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000292",
-      "receipt_no": "20261111000292"
-    },
-    {
-      "company": "두산퓨얼셀",
-      "ticker": "336260",
-      "title": "[기재정정]주요사항보고서(자본으로인정되는채무증권발행결정)",
-      "date": "20261111",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000283",
-      "receipt_no": "20261111000283"
-    },
-    {
-      "company": "두산퓨얼셀",
-      "ticker": "336260",
-      "title": "[기재정정]주요사항보고서(신주인수권부사채권발행결정)",
-      "date": "20261111",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000278",
-      "receipt_no": "20261111000278"
-    },
-    {
-      "company": "두산퓨얼셀",
-      "ticker": "336260",
-      "title": "[기재정정]주요사항보고서(전환사채권발행결정)",
-      "date": "20261111",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000269",
-      "receipt_no": "20261111000269"
     }
   ]
 }
