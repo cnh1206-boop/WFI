@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24 23:33 KST",
+  "updated_at": "2026-11-25 09:20 KST",
   "articles": [
     {
       "id": 1,
@@ -19,6 +19,22 @@
     },
     {
       "id": 2,
+      "title": "[마켓인사이트] '5천피' 무너지고 美증시 급락…'AI 투매' 추가 충격오나 - 연합뉴스",
+      "category": "세계증시·경제",
+      "keyword": "세계시장",
+      "region": "글로벌",
+      "media": "연합뉴스",
+      "date": "Sat, 21 Nov 2026 21:00:06 GMT",
+      "summary1": "[마켓인사이트] '5천피' 무너지고 美증시 급락…'AI 투매' 추가 충격오나 - 연합뉴스",
+      "summary2": "[마켓인사이트] '5천피' 무너지고 美증시 급락…'AI 투매' 추가 충격오나 연합뉴스",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5sSVlQR3NzWjNIdEpnZF9KVVNnOEFYVnM0cVppaXZfSjZXSHl6UlNYRnB1UUFtYU5PV0xUQmtDSWgtMjRvdmdWUzA2dzl5eFk1M3JxUS1kWHJsblnSAWBBVV95cUxNV1puVTNuemZya3lBTnF3ci1jZ1pxSW0yVXp6NTBGQlRXZmtjZGxFczgta21UV2hpVWVSVGV6Mzd5cTdoVk56VEZ5RmNPblM1eTV2OGJ1X3NQREZDUU5LTWg?oc=5",
+      "related_tickers": [],
+      "scraped": false
+    },
+    {
+      "id": 3,
       "title": "[오늘의 글로벌마켓] 뉴욕증시, 젠슨 황 복귀에 3대지수 강세...엔비디아 30% 폭등 - 오피니언뉴스",
       "category": "세계증시·경제",
       "keyword": "세계시장",
@@ -34,7 +50,7 @@
       "scraped": false
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "[오늘의 글로벌마켓] 뉴욕증시, AI 우려에 3대지수 폭락...나스닥 5.3%↓ - 오피니언뉴스",
       "category": "세계증시·경제",
       "keyword": "세계시장",
@@ -50,23 +66,23 @@
       "scraped": false
     },
     {
-      "id": 4,
-      "title": "유가 하락에 실적 호조까지…S&P500·나스닥 또 최고치(종합) - 연합뉴스",
+      "id": 5,
+      "title": "Australian Dollar reclaims 0.6600 before crucial RBA inflation test - tmgm.com",
       "category": "세계증시·경제",
       "keyword": "세계시장",
       "region": "글로벌",
-      "media": "연합뉴스",
-      "date": "Wed, 06 May 2026 07:00:00 GMT",
-      "summary1": "유가 하락에 실적 호조까지…S&P500·나스닥 또 최고치(종합) - 연합뉴스",
-      "summary2": "유가 하락에 실적 호조까지…S&P500·나스닥 또 최고치(종합) 연합뉴스",
+      "media": "tmgm.com",
+      "date": "Tue, 24 Nov 2026 23:42:52 GMT",
+      "summary1": "Australian Dollar reclaims 0.6600 before crucial RBA inflation test - tmgm.com",
+      "summary2": "Australian Dollar reclaims 0.6600 before crucial RBA inflation test tmgm.com",
       "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
       "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE82VkthbWp5RmlWaHVEdnVaNjdseXpEcWdLYWp2NGxDLU1nWHBpaWdWX05IWHpGMWVJMkVZZk1MUGFCczNVWmdSdDNMeERQc3FSMExaSjlpdG9yUEXSAWBBVV95cUxPUnZFN01DWTlwOG1uXzNJTjRRN3p0aF96aHRJVUV2U1RuVmF5WXBRR1FtME9Rc294bElMZEJydXFPdk90RkZXZnFmdUd3QUlPcHpZd19QWjVUXzBiUTJ3TTM?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaGZWTl9BVVFRY091THZvQldaOVpkUnNSdnZJTml1ODJVWEpKQWstWlRGcnhYZDhWMGRPdHVEbjJCVDR0TWU5Q1ZFc3UyMTVQSEs1LVZWOWtZN1A4eWItcXpLMWQ0NDZLWExvY1VubW9qbkdUb19COWNueGRyM1Q0Ui1wYkdFTUdXUkN2bG9lNWV5U3lMblpOYU9VUklna1JHdTVhclVBYTF4TUdlNTJiSS1MQ2hPWmY0ZU9mTkd5SFpvSFd2aE5mZnZzcnk?oc=5",
       "related_tickers": [],
       "scraped": false
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Gold rebound loses steam as Fed interest rate hike bets weigh - tmgm.com",
       "category": "세계증시·경제",
       "keyword": "세계시장",
@@ -78,22 +94,6 @@
       "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
       "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
       "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOXdJMXhzT2RxRlZwVWNqZFNYeERqREdaXzhhWWhTcEFUcm41cDFSejR5TmdpbGpjM1hvZ0tKdGF2SnBlQUVmS2pFQWh5am81SXBYTXd4N1lkZDZFUTJ4VDZEN1luX0QzbzY0QTNlOFVPWjJFWUNGbnF4OVJDekxxZ1RWWkhpRGZZazZ6aWRVSUktLThfeUQwWVlZZk9BaExsQVhlS2FYWFBDeHJkaEFrOUtobU5Vc2VkdnVidEE5RGVybHFYU2c?oc=5",
-      "related_tickers": [],
-      "scraped": false
-    },
-    {
-      "id": 6,
-      "title": "Fed’s Williams: \"Must act\" on inflation, sees 2% target only in 2028 - tmgm.com",
-      "category": "세계증시·경제",
-      "keyword": "세계시장",
-      "region": "글로벌",
-      "media": "tmgm.com",
-      "date": "Mon, 23 Nov 2026 21:52:18 GMT",
-      "summary1": "Fed’s Williams: \"Must act\" on inflation, sees 2% target only in 2028 - tmgm.com",
-      "summary2": "Fed’s Williams: \"Must act\" on inflation, sees 2% target only in 2028 tmgm.com",
-      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
-      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ3JXZ0VJM1FxdXQ5bl9ETUgzZ01wVkZmSHNEVjVDNURILUItTkc2UUx4SlpvZlAwS0tZcWZRVHVMMFpneHhURW5lc2ppbENSMEhadXVqeHJ6YzJ1SUhteGxzQlYwY2RHSnZRaFRrM3ZJZFc0LWdJQkp3a2RUYjkzXzBReXNoVEphQ0ZLaXF2MmNnLWI5cU9QeXBpWndYSTNnYV9yWUpGaW90Rm1UTkh0eVN3bEJPUDhKdzJEUVd2YzN6b1FsaUZr?oc=5",
       "related_tickers": [],
       "scraped": false
     },
@@ -275,6 +275,24 @@
     },
     {
       "id": 17,
+      "title": "아이온큐(IONQ) 주가 전망 2026: 평균 목표가 54달러, 스카이워터 인수와 엔비디아 협업 - Mitrade",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "미국",
+      "media": "Mitrade",
+      "date": "Tue, 24 Nov 2026 21:26:24 GMT",
+      "summary1": "아이온큐(IONQ) 주가 전망 2026: 평균 목표가 54달러, 스카이워터 인수와 엔비디아 협업 - Mitrade",
+      "summary2": "아이온큐(IONQ) 주가 전망 2026: 평균 목표가 54달러, 스카이워터 인수와 엔비디아 협업 Mitrade",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOM08zbU5qZ0ZVZ0JuTWZzYXFQVUQyLWZtYzFHMmVoT1FRRlg1VGRsVllYLXJpb0o5aDZsOC1wWGpjQmNaVk1JdE55Z1hrLUMyU0cxX012Q2JVdmtqa0JnTzZOQjhadUJ4ZGM2MXRBTkd5eS1zanRzU3dyVUFTYWxCbHNKSQ?oc=5",
+      "related_tickers": [
+        "IONQ"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 18,
       "title": "IONQ 주가, 양자 오류 수정 돌파구 마련에 7% 급등 - Investing.com 한국어",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
@@ -292,7 +310,7 @@
       "scraped": false
     },
     {
-      "id": 18,
+      "id": 19,
       "title": "IonQ, DARPA 양자 벤치마킹 이니셔티브 3단계 참여: IONQ, $23.19 지지선을 지킬까? - Traders Union",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
@@ -310,7 +328,7 @@
       "scraped": false
     },
     {
-      "id": 19,
+      "id": 20,
       "title": "IonQ, Elisity 최대 13억 달러 주식 거래로 인수 - Investing.com 한국어",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
@@ -328,43 +346,7 @@
       "scraped": false
     },
     {
-      "id": 20,
-      "title": "IonQ 주가는 왜 오늘 급등했을까? - Investing.com 한국어",
-      "category": "보유종목 뉴스",
-      "keyword": "보유종목",
-      "region": "미국",
-      "media": "Investing.com 한국어",
-      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "summary1": "IonQ 주가는 왜 오늘 급등했을까? - Investing.com 한국어",
-      "summary2": "IonQ 주가는 왜 오늘 급등했을까? Investing.com 한국어",
-      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
-      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB4bW1YNmtJbDRkeXNSOVRMRGRxN2NJcmFhOXZQSk90eHJQb1MyNzlTU3d6RUg5UmtpNmhmcWtJOVM3M204OG50LTRQRkpjQ1hjRFhqNXN3ckJGbmoxdGJCb1pmWl9hUUVBdWFiVWtfWS1GM3VmSVlV?oc=5",
-      "related_tickers": [
-        "IONQ"
-      ],
-      "scraped": false
-    },
-    {
       "id": 21,
-      "title": "수익률 상위권 휩쓴 2차전지 ETF 급부상…고유가·ESS 수혜주 - 연합뉴스",
-      "category": "보유종목 뉴스",
-      "keyword": "보유종목",
-      "region": "한국",
-      "media": "연합뉴스",
-      "date": "Tue, 21 Apr 2026 07:00:00 GMT",
-      "summary1": "수익률 상위권 휩쓴 2차전지 ETF 급부상…고유가·ESS 수혜주 - 연합뉴스",
-      "summary2": "수익률 상위권 휩쓴 2차전지 ETF 급부상…고유가·ESS 수혜주 연합뉴스",
-      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
-      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9oWmdoQmh6WUN0S2dwWXdOTGVCbVlyTjNWSE5QVkhoeTBabHoxNmdldkkzMTREeTNmalNBWHFlWThLWmRIQXFCaUYzNVhhRTQ4dTNXNTFfckNaMG_SAWBBVV95cUxNVm9QWnhiTm80SEh6bGd3SlZyZFZBazVQOFhOT3owY19aMEdhWXY2NzJaZzJ0YVlyVUo1RG91bVNYWWItRURrWlZlZUU0NklsVXdOM1NULTEzOHFGQkFkUmw?oc=5",
-      "related_tickers": [
-        "364980"
-      ],
-      "scraped": false
-    },
-    {
-      "id": 22,
       "title": "[월간 ETF] 8月, 반도체 쏠림 완화되나 ‘TIGER 2차전지TOP10레버리지’ 월간 수익률 톱...화장품 ETF도 강세 보여 - 더밸류뉴스",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
@@ -382,18 +364,36 @@
       "scraped": false
     },
     {
-      "id": 23,
-      "title": "[이주의 ETF] 미래에셋자산운용 'TIGER 2차전지 TOP10' 10대% 상승, 2차전지 관련 ETF 강세 - 비즈니스포스트",
+      "id": 22,
+      "title": "그나마 믿을건 배터리?…3개월 ETF 수익률 상위권 싹쓸이 - 매일경제 마켓",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
       "region": "한국",
-      "media": "비즈니스포스트",
-      "date": "Fri, 04 Jul 2025 07:00:00 GMT",
-      "summary1": "[이주의 ETF] 미래에셋자산운용 'TIGER 2차전지 TOP10' 10대% 상승, 2차전지 관련 ETF 강세 - 비즈니스포스트",
-      "summary2": "[이주의 ETF] 미래에셋자산운용 'TIGER 2차전지 TOP10' 10대% 상승, 2차전지 관련 ETF 강세 비즈니스포스트",
+      "media": "매일경제 마켓",
+      "date": "Thu, 15 Oct 2026 07:00:00 GMT",
+      "summary1": "그나마 믿을건 배터리?…3개월 ETF 수익률 상위권 싹쓸이 - 매일경제 마켓",
+      "summary2": "그나마 믿을건 배터리?…3개월 ETF 수익률 상위권 싹쓸이 매일경제 마켓",
       "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
       "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9VajZiUXh4NjVrWlFGRDhLRF9mSXZGRGlBZEdhRFlaNUtYajZ5VDl4TkxTaUJfODl6SFRfRGJfLWE3VERMUXZXRjdlMkJDYmxtdXg4b3ZILVRyYXFSaG9aSG9yOHQ0YmJ0SVViWGE4VmpMVE0?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5kS0tQYnJiNVlIbU5ENV9MN2FNdkRNSUlqM3dTUVNmTG14VllPLW1GRHJXRDYxdXpQWnN6YlZIU3pTdk9ET1VGOG5nbXNUV2ZaNGc?oc=5",
+      "related_tickers": [
+        "364980"
+      ],
+      "scraped": false
+    },
+    {
+      "id": 23,
+      "title": "수익률 상위권 휩쓴 2차전지 ETF 급부상…고유가·ESS 수혜주 - 연합뉴스",
+      "category": "보유종목 뉴스",
+      "keyword": "보유종목",
+      "region": "한국",
+      "media": "연합뉴스",
+      "date": "Tue, 21 Apr 2026 07:00:00 GMT",
+      "summary1": "수익률 상위권 휩쓴 2차전지 ETF 급부상…고유가·ESS 수혜주 - 연합뉴스",
+      "summary2": "수익률 상위권 휩쓴 2차전지 ETF 급부상…고유가·ESS 수혜주 연합뉴스",
+      "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
+      "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
+      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9oWmdoQmh6WUN0S2dwWXdOTGVCbVlyTjNWSE5QVkhoeTBabHoxNmdldkkzMTREeTNmalNBWHFlWThLWmRIQXFCaUYzNVhhRTQ4dTNXNTFfckNaMG_SAWBBVV95cUxNVm9QWnhiTm80SEh6bGd3SlZyZFZBazVQOFhOT3owY19aMEdhWXY2NzJaZzJ0YVlyVUo1RG91bVNYWWItRURrWlZlZUU0NklsVXdOM1NULTEzOHFGQkFkUmw?oc=5",
       "related_tickers": [
         "364980"
       ],
@@ -401,17 +401,17 @@
     },
     {
       "id": 24,
-      "title": "잠자던 2차전지, 로봇이 깨웠다…전고체·2차전지 ETF 상위권 장악 - 마켓인",
+      "title": "배터리 ETF 고공행진…미국 우주·AI도 강세 - 한국경제",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
       "region": "한국",
-      "media": "마켓인",
-      "date": "Sun, 25 Jan 2026 08:00:00 GMT",
-      "summary1": "잠자던 2차전지, 로봇이 깨웠다…전고체·2차전지 ETF 상위권 장악 - 마켓인",
-      "summary2": "잠자던 2차전지, 로봇이 깨웠다…전고체·2차전지 ETF 상위권 장악 마켓인",
+      "media": "한국경제",
+      "date": "Sun, 11 Oct 2026 07:00:00 GMT",
+      "summary1": "배터리 ETF 고공행진…미국 우주·AI도 강세 - 한국경제",
+      "summary2": "배터리 ETF 고공행진…미국 우주·AI도 강세 한국경제",
       "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
       "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9mTTg1THgxQ2dFX1VRcWZJN3N0YmprdTYwUTgxb1BGaHh1N0oyUDItTXZKYkczck0zU0UzVnhwdFBaZktiSmQtNzFWbUstMERrU0ljamdmVVl3cFlHRWl4anpEdDRiQ2FCbFR5YlFaZWhGU0E?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5udXgyeGxJVkRzRWJMMTZzZWRSLV9VTTZ1UXpTTVBZMHdpU1hPeS1TMzZDRVV2cnVyUHNGRV9CaWlubmJlWHYwMTQ1QlFVRVJCVWVla1VPTnFuZw?oc=5",
       "related_tickers": [
         "364980"
       ],
@@ -419,17 +419,17 @@
     },
     {
       "id": 25,
-      "title": "[장중수급포착] 두산퓨얼셀, 외국인 13일 연속 순매수행진... 주가 +6.35% - 뉴스핌",
+      "title": "[리포트 브리핑]두산퓨얼셀, '성장의 레버리지, PAFC에서 더 크다' 목표가 41,000원 - 메리츠증권 - 뉴스핌",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
       "region": "한국",
       "media": "뉴스핌",
-      "date": "Tue, 24 Nov 2026 01:18:00 GMT",
-      "summary1": "[장중수급포착] 두산퓨얼셀, 외국인 13일 연속 순매수행진... 주가 +6.35% - 뉴스핌",
-      "summary2": "[장중수급포착] 두산퓨얼셀, 외국인 13일 연속 순매수행진... 주가 +6.35% 뉴스핌",
+      "date": "Tue, 24 Nov 2026 03:23:00 GMT",
+      "summary1": "[리포트 브리핑]두산퓨얼셀, '성장의 레버리지, PAFC에서 더 크다' 목표가 41,000원 - 메리츠증권 - 뉴스핌",
+      "summary2": "[리포트 브리핑]두산퓨얼셀, '성장의 레버리지, PAFC에서 더 크다' 목표가 41,000원 - 메리츠증권 뉴스핌",
       "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
       "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9FbmNPakJPNkJOSC1hMTBTbGl4UHBZdEg2OXI1bFl4OXR5V0hfdklGRGNpRWZrVWZvR0RPRWNDUUU1UDlsamZqQWxuSmlJLTdWVVlaWkw2a3dUZ2w1?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBoX241c3ZZOTV2VFJ0SGFYR1Q1TG5DbklRNTNZa1EzMm1LUVhYVWswd0l1NWU2NkRqM2k2eUZQV3BZRUFhUS11c0pLNl9KN19TVzRsUXYtYWJ6OVNE?oc=5",
       "related_tickers": [
         "009900",
         "067370",
@@ -479,17 +479,17 @@
     },
     {
       "id": 28,
-      "title": "두산퓨얼셀, 해외 진출 본격화로 내년 하반기 흑자전환 - 알파경제",
+      "title": "두산퓨얼셀, 해외 진출 본격화로 내년 하반기 흑자전환 - 메디컬투데이",
       "category": "보유종목 뉴스",
       "keyword": "보유종목",
       "region": "한국",
-      "media": "알파경제",
+      "media": "메디컬투데이",
       "date": "Mon, 23 Nov 2026 01:32:09 GMT",
-      "summary1": "두산퓨얼셀, 해외 진출 본격화로 내년 하반기 흑자전환 - 알파경제",
-      "summary2": "두산퓨얼셀, 해외 진출 본격화로 내년 하반기 흑자전환 알파경제",
+      "summary1": "두산퓨얼셀, 해외 진출 본격화로 내년 하반기 흑자전환 - 메디컬투데이",
+      "summary2": "두산퓨얼셀, 해외 진출 본격화로 내년 하반기 흑자전환 메디컬투데이",
       "summary3": "제목과 출처를 기준으로 수집했습니다. 기사 원문에서 사실관계와 맥락을 확인하세요.",
       "insight": "관련 보유 종목 또는 시장 동향 뉴스입니다. 투자 판단 전 원문과 공시를 확인하세요.",
-      "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8xRWNuY0hXdS14MDFEa2dubXA0WmE5UHEwc25SblNIVUFpZnByWXpLV3k3SkxNdWphSTlzR2g3M2lxV2t0VlNFeUYycTRHbzF5eWVlaklDV2VwNTcyVFkwQTJWQ3BXRDZYUjZZa2t3?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBEbUkycUo4N3p6X1RCTjRoVnJfQ01tak84NVUtSnFsYjdJUGhZZUk1VDMwZnBtRmgyS3Vyb3k1RnE1Q2kycTYwUl9IX0NidmFyelAzVHVoVTU1TTNOM09xMHdzR2diN2J2R0xPOA?oc=5",
       "related_tickers": [
         "009900",
         "067370",
