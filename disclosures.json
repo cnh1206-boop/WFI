@@ -1,7 +1,15 @@
 {
-  "updated_at": "2026-11-25 09:20 KST",
+  "updated_at": "2026-11-25 18:32 KST",
   "configured": true,
   "items": [
+    {
+      "company": "SK하이닉스",
+      "ticker": "000660",
+      "title": "기업가치제고계획(자율공시)              ",
+      "date": "20261125",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125800766",
+      "receipt_no": "20261125800766"
+    },
     {
       "company": "POSCO홀딩스",
       "ticker": "005490",
