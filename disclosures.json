@@ -1,7 +1,39 @@
 {
-  "updated_at": "2026-11-27 09:18 KST",
+  "updated_at": "2026-11-27 18:26 KST",
   "configured": true,
   "items": [
+    {
+      "company": "SK하이닉스",
+      "ticker": "000660",
+      "title": "풍문또는보도에대한해명(미확정)              ",
+      "date": "20261127",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127801094",
+      "receipt_no": "20261127801094"
+    },
+    {
+      "company": "SK하이닉스",
+      "ticker": "000660",
+      "title": "특수관계인에대한증여",
+      "date": "20261127",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127000377",
+      "receipt_no": "20261127000377"
+    },
+    {
+      "company": "SK하이닉스",
+      "ticker": "000660",
+      "title": "대규모기업집단현황공시[분기별공시(개별회사용)]",
+      "date": "20261127",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127000257",
+      "receipt_no": "20261127000257"
+    },
+    {
+      "company": "두산퓨얼셀",
+      "ticker": "336260",
+      "title": "단일판매ㆍ공급계약체결              ",
+      "date": "20261127",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127800155",
+      "receipt_no": "20261127800155"
+    },
     {
       "company": "SK하이닉스",
       "ticker": "000660",
