@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27 18:26 KST",
+  "updated_at": "2026-11-28 04:20 KST",
   "configured": true,
   "items": [
     {
@@ -105,46 +105,6 @@
       "date": "20261116",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000687",
       "receipt_no": "20261116000687"
-    },
-    {
-      "company": "POSCO홀딩스",
-      "ticker": "005490",
-      "title": "분기보고서 (2026.09)",
-      "date": "20261113",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001097",
-      "receipt_no": "20261113001097"
-    },
-    {
-      "company": "POSCO홀딩스",
-      "ticker": "005490",
-      "title": "현금ㆍ현물배당결정              ",
-      "date": "20261113",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
-      "receipt_no": "20261113801151"
-    },
-    {
-      "company": "POSCO홀딩스",
-      "ticker": "005490",
-      "title": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정              ",
-      "date": "20261113",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801052",
-      "receipt_no": "20261113801052"
-    },
-    {
-      "company": "명신산업",
-      "ticker": "009900",
-      "title": "분기보고서 (2026.09)",
-      "date": "20261113",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001523",
-      "receipt_no": "20261113001523"
-    },
-    {
-      "company": "두산퓨얼셀",
-      "ticker": "336260",
-      "title": "분기보고서 (2026.09)",
-      "date": "20261113",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000446",
-      "receipt_no": "20261113000446"
     }
   ]
 }
