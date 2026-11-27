@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26 22:39 KST",
+  "updated_at": "2026-11-27 09:18 KST",
   "configured": true,
   "items": [
     {
@@ -113,22 +113,6 @@
       "date": "20261113",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000446",
       "receipt_no": "20261113000446"
-    },
-    {
-      "company": "두산퓨얼셀",
-      "ticker": "336260",
-      "title": "유상증자또는주식관련사채등의발행결과(자율공시)              ",
-      "date": "20261112",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800996",
-      "receipt_no": "20261112800996"
-    },
-    {
-      "company": "두산퓨얼셀",
-      "ticker": "336260",
-      "title": "유상증자또는주식관련사채등의발행결과(자율공시)              ",
-      "date": "20261112",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800990",
-      "receipt_no": "20261112800990"
     }
   ]
 }

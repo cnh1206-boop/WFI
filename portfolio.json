@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26 22:39 KST",
+  "updated_at": "2026-11-27 09:18 KST",
   "indices": [
     {
       "name": "S&P 500",
@@ -72,11 +72,11 @@
       "region": "한국",
       "ticker": "^KS11",
       "market": "INDEX",
-      "price": 4711.21,
-      "change": 13.7002,
-      "change_percent": 0.2916,
+      "price": 4697.5098,
+      "change": -308.52,
+      "change_percent": -6.163,
       "currency": "POINTS",
-      "as_of": "2026-11-26",
+      "as_of": "2026-11-25",
       "error": null
     },
     {
@@ -85,11 +85,11 @@
       "region": "한국",
       "ticker": "^KQ11",
       "market": "INDEX",
-      "price": 655.71,
-      "change": 5.07,
-      "change_percent": 0.7792,
+      "price": 650.64,
+      "change": -15.24,
+      "change_percent": -2.2887,
       "currency": "POINTS",
-      "as_of": "2026-11-26",
+      "as_of": "2026-11-25",
       "error": null
     },
     {
@@ -98,11 +98,11 @@
       "region": "일본",
       "ticker": "^N225",
       "market": "INDEX",
-      "price": 57499.1602,
-      "change": 487.5391,
-      "change_percent": 0.8552,
+      "price": 57918.9102,
+      "change": 907.2891,
+      "change_percent": 1.5914,
       "currency": "POINTS",
-      "as_of": "2026-11-26",
+      "as_of": "2026-11-27",
       "error": null
     },
     {
@@ -111,11 +111,11 @@
       "region": "홍콩",
       "ticker": "^HSI",
       "market": "INDEX",
-      "price": 22226.8809,
-      "change": 260.8711,
-      "change_percent": 1.1876,
+      "price": 21966.0098,
+      "change": -253.6406,
+      "change_percent": -1.1415,
       "currency": "POINTS",
-      "as_of": "2026-11-26",
+      "as_of": "2026-11-25",
       "error": null
     },
     {
@@ -124,11 +124,11 @@
       "region": "유럽",
       "ticker": "^STOXX50E",
       "market": "INDEX",
-      "price": 6001.4902,
-      "change": 107.0303,
-      "change_percent": 1.8158,
+      "price": 5894.46,
+      "change": -109.2998,
+      "change_percent": -1.8205,
       "currency": "POINTS",
-      "as_of": "2026-11-26",
+      "as_of": "2026-11-25",
       "error": null
     }
   ],
