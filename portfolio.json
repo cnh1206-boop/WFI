@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28 04:20 KST",
+  "updated_at": "2026-11-28 12:43 KST",
   "indices": [
     {
       "name": "S&P 500",
@@ -34,9 +34,9 @@
       "currency": "PERCENT",
       "ticker": "^TNX",
       "market": "INDEX",
-      "price": 4.934,
-      "change": 0.086,
-      "change_percent": 1.7739,
+      "price": 4.936,
+      "change": 0.088,
+      "change_percent": 1.8152,
       "as_of": "2026-11-27",
       "error": null
     },
@@ -72,11 +72,11 @@
       "region": "한국",
       "ticker": "^KS11",
       "market": "INDEX",
-      "price": 4711.21,
-      "change": 13.7002,
-      "change_percent": 0.2916,
+      "price": 4915.6802,
+      "change": 204.4702,
+      "change_percent": 4.3401,
       "currency": "POINTS",
-      "as_of": "2026-11-26",
+      "as_of": "2026-11-27",
       "error": null
     },
     {
@@ -85,11 +85,11 @@
       "region": "한국",
       "ticker": "^KQ11",
       "market": "INDEX",
-      "price": 655.71,
-      "change": 5.07,
-      "change_percent": 0.7792,
+      "price": 708.99,
+      "change": 53.28,
+      "change_percent": 8.1255,
       "currency": "POINTS",
-      "as_of": "2026-11-26",
+      "as_of": "2026-11-27",
       "error": null
     },
     {
@@ -98,11 +98,11 @@
       "region": "일본",
       "ticker": "^N225",
       "market": "INDEX",
-      "price": 57499.1602,
-      "change": 487.5391,
-      "change_percent": 0.8552,
+      "price": 58711.1094,
+      "change": 1211.9492,
+      "change_percent": 2.1078,
       "currency": "POINTS",
-      "as_of": "2026-11-26",
+      "as_of": "2026-11-27",
       "error": null
     },
     {
@@ -111,11 +111,11 @@
       "region": "홍콩",
       "ticker": "^HSI",
       "market": "INDEX",
-      "price": 22226.8809,
-      "change": 260.8711,
-      "change_percent": 1.1876,
+      "price": 22694.7695,
+      "change": 467.8887,
+      "change_percent": 2.1051,
       "currency": "POINTS",
-      "as_of": "2026-11-26",
+      "as_of": "2026-11-27",
       "error": null
     },
     {
@@ -138,11 +138,11 @@
       "ticker": "005490",
       "symbol": "005490.KS",
       "market": "KR",
-      "price": 248500.0,
-      "change": -3000.0,
-      "change_percent": -1.1928,
+      "price": 258500.0,
+      "change": 10000.0,
+      "change_percent": 4.0241,
       "currency": "KRW",
-      "as_of": "2026-11-26",
+      "as_of": "2026-11-27",
       "error": null
     },
     {
@@ -150,11 +150,11 @@
       "ticker": "000660",
       "symbol": "000660.KS",
       "market": "KR",
-      "price": 1053000.0,
-      "change": 23000.0,
-      "change_percent": 2.233,
+      "price": 1110000.0,
+      "change": 57000.0,
+      "change_percent": 5.4131,
       "currency": "KRW",
-      "as_of": "2026-11-26",
+      "as_of": "2026-11-27",
       "error": null
     },
     {
@@ -222,11 +222,11 @@
       "ticker": "009900",
       "symbol": "009900.KS",
       "market": "KR",
-      "price": 5610.0,
-      "change": -240.0,
-      "change_percent": -4.1026,
+      "price": 6110.0,
+      "change": 500.0,
+      "change_percent": 8.9127,
       "currency": "KRW",
-      "as_of": "2026-11-26",
+      "as_of": "2026-11-27",
       "error": null
     },
     {
@@ -234,11 +234,11 @@
       "ticker": "067370",
       "symbol": "067370.KQ",
       "market": "KR",
-      "price": 4700.0,
-      "change": -195.0,
-      "change_percent": -3.9837,
+      "price": 4975.0,
+      "change": 275.0,
+      "change_percent": 5.8511,
       "currency": "KRW",
-      "as_of": "2026-11-26",
+      "as_of": "2026-11-27",
       "error": null
     },
     {
@@ -246,11 +246,11 @@
       "ticker": "336260",
       "symbol": "336260.KS",
       "market": "KR",
-      "price": 22400.0,
-      "change": -50.0,
-      "change_percent": -0.2227,
+      "price": 25200.0,
+      "change": 2800.0,
+      "change_percent": 12.5,
       "currency": "KRW",
-      "as_of": "2026-11-26",
+      "as_of": "2026-11-27",
       "error": null
     },
     {
